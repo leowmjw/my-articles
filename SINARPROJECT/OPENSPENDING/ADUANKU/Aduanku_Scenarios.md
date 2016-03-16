@@ -5,8 +5,6 @@ issues affecting the residents of PPR Kota Damansara; whether at the local
 Joint Management Body (JMB) level run by PHSSB or in the surrounding area
 under the Petaling Jaya City Council (MBPJ). 
 
-displaying the Reports, Statistics
-
 This short write up will present two scenarios involving the stakeholders:
 
 1) How a resident of PPR Kota Damansara can easily and safely make a report 
@@ -16,32 +14,31 @@ of an issue to be brought up to attention to PHSSB
 communicate and update the handling status of any issues being brought up
 by the residents.
 
-----------------
-## Scenario #1:
-----------------
+--------------------------------------
+## Scenario #1: Resident Making Report
+---------------------------------------
 
-As a resident of PHSSB, a report; and in the case of sensitive issues, there
-must be a meachanism to safely do so
-
-, if it is a general report; follow the steps below:
+As a resident of PHSSB, a report can be made following the steps below:
 
 1. Go to https://aduanku.my
 
 2. Click on the "Report a problem" link and enter the nearest street to PPR
-Kota Damansara; which is "Jalan Pekaka 8/1"
-
-3. Fill in all the necessary information as show below:
-
+Kota Damansara; which is "Jalan Pekaka 8/1":
 <p align="center">
-![Dashboard View for Public Body Staff](https://raw.githubusercontent.com/leowmjw/my-articles/master/SINARPROJECT/OPENSPENDING/ADUANKU/assets/Dashboard_Status_View_For_PublicBody.png)
+![Choose where problem is](https://raw.githubusercontent.com/leowmjw/my-articles/master/SINARPROJECT/OPENSPENDING/ADUANKU/assets/Aduanku_Report_Issue_Start.png)
 </p>
 
-As a resident, if it is a sensitive matter 
+3. Fill in all the necessary information as show below:
+<p align="center">
+![Reporting a New Problem](https://raw.githubusercontent.com/leowmjw/my-articles/master/SINARPROJECT/OPENSPENDING/ADUANKU/assets/Aduanku_Reporting_By_Resident.png)
+</p>
 
-Contact your resource person **Peng Lim** via alternative channel (on Whatsapp).  
-There should be a shared email account that can be used in this case.
+4. As a resident, if it is a sensitive matter; contact your resource person 
+**Peng Lim** via alternative channel (on Whatsapp).  There should be a 
+shared email account that can be used in this case.
 
-As we can see in the example below; this is what PHSSB will see
+As we can see in the example below; this is what PHSSB will see when a 
+report is made:
 ```
 ----------
 
@@ -64,47 +61,57 @@ Latitude: 3.176146
 Longitude: 101.577803
 ```
 
-So as long as the reporter either gets the resource person (e.g Peng Lim) to report
-on their behalf; or use.
+So as long as the reporter either gets the resource person (e.g Peng Lim) 
+to report on their behalf; or use a throw away email; PHSSB will not be able 
+to identify the reporter.
 
-The **phone number** and **name** field is **OPTIONAL**  In order to obfuscate
+**REMEMBER:** The **phone number** and **name** field is **OPTIONAL**  In order to obfuscate
 the report; use a shared email, the JMB should make contact only via email
 
-----------------
-## Scenario #2:
-----------------
+---------------------------------------------------
+## Scenario #2: PHSSB Monitoring + Updating Issues
+---------------------------------------------------
 
-As the Joint Management Body (JMB) tasked with maintaining the PPR Kota Damansara
+As the Joint Management Body (JMB) tasked with maintaining the PPR Kota 
+Damansara blocks; PHSSB can leverage on the Aduanku platform for monitoring 
+and keeping the residents updated about the issues reported by them.  
+All we need is the email of the PHSSB staff assigned to monitor Aduanku and 
+they can be added in by Sinar Project.
 
-The Dashboard is available to the Public Body (in this case PHSSB) to use 
-as a nice interface to see what issues have been reported to the residents.
+The Dashboard is available to the Public Body to have an overview of the issues
+and what needs to be given priority to be addressed.
+<p align="center">
+![Dashboard View for Public Body Staff](https://raw.githubusercontent.com/leowmjw/my-articles/master/SINARPROJECT/OPENSPENDING/ADUANKU/assets/Aduanku_Dashboard_View_PublicBody.png)
+</p>
 
-They can easily update the status as work goes in progress.  In the screeshots
-below, it shows the available options
-
-In the case of an anonymous report; it will show it as, and the PHSSB staff
-in charge should go to check before updating it to ...
-
-As the staff of a Public Body, can adjust the status of 
-
+They can easily update the status as work goes in progress and actions are taken.
+In the screeshots below, the PHSSB staff assigned just updates the state of each
+issue:
 <p align="center">
 ![Dashboard View for Public Body Staff](https://raw.githubusercontent.com/leowmjw/my-articles/master/SINARPROJECT/OPENSPENDING/ADUANKU/assets/Dashboard_Status_View_For_PublicBody.png)
 </p>
 
-To highlight some of the status and how PHSSB should work:
-- Investigating - 
-- In Progress
-- Unabe to fix - Please detail why this cannot be done
-- Not Responsible - If falls under MBPJ; please help file on behalf of the 
-resident before not fixing ..
-- Fixed   
+To highlight some of the status and how it is best used:
+```
+- Investigating: Do add any other pertinent findings in the update
+- Action Scheduled: Do update when a fix is scheduled so the resident knows 
+- In Progress: Inform the resident that a fix is ongoing so thy are aware
+- Unable to fix: Please detail why this cannot be done
+- Not Responsible: If falls under MBPJ; please help file on behalf of the 
+resident
+- Fixed: Attach picture to show the problem has been fixed  
+```
 
 This ends the quick review over the possible scenarios; if there are anything
 not covered, contact us at Sinar Project for assistant to get it resolved.
 
-As an Admin user; we get to change all the available status of the issue;
-so if there was a mistaken issue posted, it should be Anonymous when it is not
-and any other situation that cannot be resolved, get in touch immediately!:
+Finally:
+
+Sinar Project, as an Admin of the Aduanku Platform; we have an overall view of
+all issues reported in the system.  So, for example if there was a issue 
+posted which should have been Anonymous, let us know. When facing any other 
+situation with the Aduanku platform that you cannot resolve, get in touch 
+immediately!:
 <p align="center">
 ![Issue Status View - Admin](https://raw.githubusercontent.com/leowmjw/my-articles/master/SINARPROJECT/OPENSPENDING/ADUANKU/assets/Dashboard_Status_View_For_Admin.png)
 </p>

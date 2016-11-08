@@ -1,0 +1,1314 @@
+{
+  "version": 1,
+  "width": 75,
+  "height": 21,
+  "duration": 60.314854,
+  "command": "/bin/bash",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.313369,
+      "\u001b[?1034hbash-3.2$ "
+    ],
+    [
+      1.000000,
+      "c"
+    ],
+    [
+      0.008045,
+      "d"
+    ],
+    [
+      0.159922,
+      " "
+    ],
+    [
+      0.560475,
+      "~"
+    ],
+    [
+      0.367915,
+      "/"
+    ],
+    [
+      1.000000,
+      "D"
+    ],
+    [
+      0.000011,
+      "es"
+    ],
+    [
+      0.000006,
+      "k"
+    ],
+    [
+      0.000023,
+      "top"
+    ],
+    [
+      0.000005,
+      "/"
+    ],
+    [
+      0.000024,
+      "P"
+    ],
+    [
+      0.000008,
+      "R"
+    ],
+    [
+      0.000005,
+      "O"
+    ],
+    [
+      0.000020,
+      "J"
+    ],
+    [
+      0.000016,
+      "E"
+    ],
+    [
+      0.000018,
+      "C"
+    ],
+    [
+      0.000050,
+      "T"
+    ],
+    [
+      0.000021,
+      "S"
+    ],
+    [
+      0.000026,
+      "/"
+    ],
+    [
+      0.000023,
+      "p"
+    ],
+    [
+      0.000017,
+      "l"
+    ],
+    [
+      0.000022,
+      "a"
+    ],
+    [
+      0.000026,
+      "y"
+    ],
+    [
+      0.000008,
+      "g"
+    ],
+    [
+      0.000019,
+      "r"
+    ],
+    [
+      0.000019,
+      "o"
+    ],
+    [
+      0.000022,
+      "u"
+    ],
+    [
+      0.000026,
+      "n"
+    ],
+    [
+      0.000029,
+      "d"
+    ],
+    [
+      0.000008,
+      "-"
+    ],
+    [
+      0.000006,
+      "i"
+    ],
+    [
+      0.000035,
+      "n"
+    ],
+    [
+      0.000018,
+      "f"
+    ],
+    [
+      0.000006,
+      "r"
+    ],
+    [
+      0.000030,
+      "a"
+    ],
+    [
+      0.000016,
+      "/"
+    ],
+    [
+      0.000034,
+      "P"
+    ],
+    [
+      0.000008,
+      "O"
+    ],
+    [
+      0.000023,
+      "C"
+    ],
+    [
+      0.000028,
+      "_"
+    ],
+    [
+      0.000025,
+      "P"
+    ],
+    [
+      0.000022,
+      "O"
+    ],
+    [
+      0.000033,
+      "R"
+    ],
+    [
+      0.000007,
+      "T"
+    ],
+    [
+      0.000033,
+      "_"
+    ],
+    [
+      0.000019,
+      "A"
+    ],
+    [
+      0.000026,
+      "W"
+    ],
+    [
+      0.000028,
+      "S"
+    ],
+    [
+      0.000022,
+      "_"
+    ],
+    [
+      0.000028,
+      "T"
+    ],
+    [
+      0.000027,
+      "O"
+    ],
+    [
+      0.000033,
+      "_"
+    ],
+    [
+      0.000007,
+      "A"
+    ],
+    [
+      0.000025,
+      "Z"
+    ],
+    [
+      0.000024,
+      "U"
+    ],
+    [
+      0.000032,
+      "R"
+    ],
+    [
+      0.000030,
+      "E"
+    ],
+    [
+      0.000034,
+      "/"
+    ],
+    [
+      0.000007,
+      "s"
+    ],
+    [
+      0.000032,
+      "i"
+    ],
+    [
+      0.000042,
+      "m"
+    ],
+    [
+      0.000324,
+      "p \rle/AZURE/fi"
+    ],
+    [
+      0.000010,
+      "x-az"
+    ],
+    [
+      0.000030,
+      "u"
+    ],
+    [
+      0.000025,
+      "re"
+    ],
+    [
+      0.000018,
+      "r"
+    ],
+    [
+      0.000027,
+      "m"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      0.000312,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "s"
+    ],
+    [
+      0.104018,
+      "o"
+    ],
+    [
+      0.112301,
+      "u"
+    ],
+    [
+      0.063869,
+      "r"
+    ],
+    [
+      0.231800,
+      "c"
+    ],
+    [
+      0.080232,
+      "e"
+    ],
+    [
+      0.103845,
+      " "
+    ],
+    [
+      0.528313,
+      "~"
+    ],
+    [
+      0.359803,
+      "/"
+    ],
+    [
+      0.456054,
+      "D"
+    ],
+    [
+      0.199796,
+      "e"
+    ],
+    [
+      0.262496,
+      "sktop/"
+    ],
+    [
+      0.537193,
+      "P"
+    ],
+    [
+      0.152154,
+      "R"
+    ],
+    [
+      0.128123,
+      "O"
+    ],
+    [
+      0.533412,
+      "JECTS/"
+    ],
+    [
+      0.684171,
+      "G"
+    ],
+    [
+      0.166619,
+      "O"
+    ],
+    [
+      0.262430,
+      "\u0007LANG"
+    ],
+    [
+      1.000000,
+      "/"
+    ],
+    [
+      0.215706,
+      "s"
+    ],
+    [
+      0.224043,
+      "o"
+    ],
+    [
+      0.120452,
+      "u"
+    ],
+    [
+      0.127744,
+      "rce_golang "
+    ],
+    [
+      0.431780,
+      "\r\n"
+    ],
+    [
+      0.048014,
+      "Setting up the GOLANG binary ..\r\n"
+    ],
+    [
+      0.000144,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "t"
+    ],
+    [
+      0.056077,
+      "e"
+    ],
+    [
+      0.224283,
+      "r"
+    ],
+    [
+      0.199819,
+      "r"
+    ],
+    [
+      1.000000,
+      "aform "
+    ],
+    [
+      1.000000,
+      "d"
+    ],
+    [
+      0.152337,
+      "e"
+    ],
+    [
+      0.207658,
+      "s"
+    ],
+    [
+      0.351930,
+      "t"
+    ],
+    [
+      0.839879,
+      "r"
+    ],
+    [
+      0.120234,
+      "o"
+    ],
+    [
+      0.200127,
+      "y"
+    ],
+    [
+      0.511683,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mDo you really want to destroy?\u001b[0m\r\n"
+    ],
+    [
+      0.000172,
+      "  Terraform will delete all your managed infrastructure.\r\n"
+    ],
+    [
+      0.000171,
+      "  There is no undo. Only 'yes' will be accepted to confirm.\r\n"
+    ],
+    [
+      0.000038,
+      "\r\n"
+    ],
+    [
+      0.100196,
+      "  \u001b[1mEnter a value:\u001b[0m \u001b[0m"
+    ],
+    [
+      1.000000,
+      "y"
+    ],
+    [
+      0.032160,
+      "e"
+    ],
+    [
+      0.176409,
+      "s"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      0.000164,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development)\u001b[0m\r\n"
+    ],
+    [
+      0.706714,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/routeTables/PublicRouteTable)\u001b[0m\r\n"
+    ],
+    [
+      0.000677,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP)\u001b[0m\r\n"
+    ],
+    [
+      0.000626,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork)\u001b[0m\r\n"
+    ],
+    [
+      0.705979,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/routeTables/PublicRouteTable/routes/InternetRoute)\u001b[0m\r\n"
+    ],
+    [
+      0.082697,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1)\u001b[0m\r\n"
+    ],
+    [
+      0.000450,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3)\u001b[0m\r\n"
+    ],
+    [
+      0.000505,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2)\u001b[0m\r\n"
+    ],
+    [
+      0.439303,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface)\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000209,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000240,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000237,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Still destroying... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.006813,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still destroying... (11s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000256,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still destroying... (11s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000250,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Still destroying... (11s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Still destroying... (21s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.007050,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Still destroying... (21s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000241,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still destroying... (21s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000839,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still destroying... (21s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.477385,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.002175,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.008129,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.002018,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.001644,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.073043,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still destroying... (31s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.481312,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Still destroying... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.009266,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Still destroying... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000991,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Still destroying... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still destroying... (41s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.481059,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Still destroying... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.010397,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Still destroying... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000213,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Still destroying... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.188041,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.038805,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.132989,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Still destroying... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Still destroying... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.400429,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Destruction complete\u001b[21m\u001b[0m\r\n\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Still destroying... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Still destroying... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.296255,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.004870,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Still destroying... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Still destroying... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Still destroying... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Still destroying... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.136357,
+      "\u001b[0m\u001b[1m\u001b[32m\r\n"
+    ],
+    [
+      0.000306,
+      "Destroy complete! Resources: 9 destroyed.\u001b[0m\r\n"
+    ],
+    [
+      0.057747,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "t"
+    ],
+    [
+      0.055624,
+      "e"
+    ],
+    [
+      0.168162,
+      "r"
+    ],
+    [
+      0.184386,
+      "r"
+    ],
+    [
+      0.095728,
+      "a"
+    ],
+    [
+      1.000000,
+      "form "
+    ],
+    [
+      0.714608,
+      "s"
+    ],
+    [
+      0.159991,
+      "h"
+    ],
+    [
+      0.104125,
+      "o"
+    ],
+    [
+      0.072268,
+      "w"
+    ],
+    [
+      0.176234,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.004968,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "e"
+    ],
+    [
+      1.000000,
+      "x"
+    ],
+    [
+      0.368400,
+      "i"
+    ],
+    [
+      1.000000,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.183953,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.175989,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.159754,
+      "\u0007"
+    ],
+    [
+      0.353320,
+      "e"
+    ],
+    [
+      0.127132,
+      "t"
+    ],
+    [
+      0.247728,
+      "r"
+    ],
+    [
+      0.136192,
+      "r"
+    ],
+    [
+      0.098268,
+      "\u0007"
+    ],
+    [
+      0.526004,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.167574,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.168031,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.160370,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.143640,
+      "\u0007"
+    ],
+    [
+      1.000000,
+      "t"
+    ],
+    [
+      0.111854,
+      "e"
+    ],
+    [
+      0.240298,
+      "r"
+    ],
+    [
+      0.183973,
+      "r"
+    ],
+    [
+      0.042900,
+      "aform "
+    ],
+    [
+      0.860859,
+      "p"
+    ],
+    [
+      0.080702,
+      "l"
+    ],
+    [
+      0.135510,
+      "a"
+    ],
+    [
+      0.167841,
+      "n"
+    ],
+    [
+      0.248218,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "Refreshing Terraform state in-memory prior to plan...\r\n"
+    ],
+    [
+      0.000411,
+      "The refreshed state will be used to calculate this plan, but\r\nwill not be persisted to local or remote state storage.\r\n\r\n"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "The Terraform execution plan has been generated and is shown below.\r\n"
+    ],
+    [
+      0.000175,
+      "Resources are shown in alphabetical order for quick scanning. Green resources\r\n"
+    ],
+    [
+      0.000222,
+      "will be created (or destroyed and then created if an existing resource\r\n"
+    ],
+    [
+      0.000122,
+      "exists), yellow resources are being changed in-place, and red resources\r\n"
+    ],
+    [
+      0.000186,
+      "will be destroyed. Cyan entries are data sources to be read.\r\n"
+    ],
+    [
+      0.000007,
+      "\r\n"
+    ],
+    [
+      0.000219,
+      "Note: You didn't specify an \"-out\" parameter to save this plan, so when\r\n"
+    ],
+    [
+      0.000144,
+      "\"apply\" is called, Terraform can't guarantee this is what will execute.\r\n"
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.008543,
+      "\u001b[32m+ fixazurerm_network_interface.network_interface\r\n"
+    ],
+    [
+      0.000235,
+      "\u001b[0m    applied_dns_servers.#:                                                 \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000213,
+      "    dns_servers.#:                                                         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000207,
+      "    enable_ip_forwarding:                                                  \"false\"\r\n"
+    ],
+    [
+      0.000226,
+      "    internal_dns_name_label:                                               \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000173,
+      "    internal_fqdn:                                                         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000191,
+      "    ip_configuration.#:                                                    \"1\"\r\n"
+    ],
+    [
+      0.000222,
+      "    ip_configuration.~644031687.load_balancer_backend_address_pools_ids.#: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000189,
+      "    ip_configuration.~644031687.load_balancer_inbound_nat_rules_ids.#:     \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000206,
+      "    ip_configuration.~644031687.name:                                      \"ipconfig1\"\r\n"
+    ],
+    [
+      0.000230,
+      "    ip_configuration.~644031687.private_ip_address:                        \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000346,
+      "    ip_configuration.~644031687.private_ip_address_allocation:             \"dynamic\"\r\n"
+    ],
+    [
+      0.000250,
+      "    ip_configuration.~644031687.public_ip_address_id:                      \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000204,
+      "    ip_configuration.~644031687.subnet_id:                                 \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000736,
+      "    location:                                                              \"southeastasia\"\r\n"
+    ],
+    [
+      0.000184,
+      "    mac_address:                                                           \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000220,
+      "    name:                                                                  \"developmentNetworkInterface\"\r\n"
+    ],
+    [
+      0.000193,
+      "    network_security_group_id:                                             \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000245,
+      "    private_ip_address:                                                    \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000167,
+      "    resource_group_name:                                                   \"development\"\r\n"
+    ],
+    [
+      0.000183,
+      "    tags.%:                                                                \"1\"\r\n"
+    ],
+    [
+      0.000214,
+      "    tags.environment:                                                      \"Development\"\r\n"
+    ],
+    [
+      0.000222,
+      "    virtual_machine_id:                                                    \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000110,
+      "\u001b[0m\u001b[32m+ fixazurerm_public_ip.pubip\r\n"
+    ],
+    [
+      0.000209,
+      "\u001b[0m    domain_name_label:            \"mydevelopment\"\r\n"
+    ],
+    [
+      0.000096,
+      "    fqdn:                         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000111,
+      "    ip_address:                   \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000127,
+      "    location:                     \"southeastasia\"\r\n"
+    ],
+    [
+      0.000143,
+      "    name:                         \"developmentPublicIP\"\r\n"
+    ],
+    [
+      0.000108,
+      "    public_ip_address_allocation: \"static\"\r\n"
+    ],
+    [
+      0.000147,
+      "    resource_group_name:          \"development\"\r\n"
+    ],
+    [
+      0.000093,
+      "    tags.%:                       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000132,
+      "\u001b[0m\u001b[32m+ fixazurerm_resource_group.development\r\n"
+    ],
+    [
+      0.000104,
+      "\u001b[0m    location:         \"southeastasia\"\r\n"
+    ],
+    [
+      0.000094,
+      "    name:             \"development\"\r\n"
+    ],
+    [
+      0.000091,
+      "    tags.%:           \"1\"\r\n"
+    ],
+    [
+      0.000103,
+      "    tags.environment: \"Development\"\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000104,
+      "\u001b[0m\u001b[32m+ fixazurerm_route.public\r\n"
+    ],
+    [
+      0.000107,
+      "\u001b[0m    address_prefix:         \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      0.000128,
+      "    name:                   \"InternetRoute\"\r\n"
+    ],
+    [
+      0.000130,
+      "    next_hop_in_ip_address: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000097,
+      "    next_hop_type:          \"Internet\"\r\n"
+    ],
+    [
+      0.000126,
+      "    resource_group_name:    \"development\"\r\n"
+    ],
+    [
+      0.000137,
+      "    route_table_name:       \"PublicRouteTable\"\r\n"
+    ],
+    [
+      0.000019,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000114,
+      "\u001b[0m\u001b[32m+ fixazurerm_route_table.public\r\n"
+    ],
+    [
+      0.000222,
+      "\u001b[0m    location:            \"southeastasia\"\r\n"
+    ],
+    [
+      0.000130,
+      "    name:                \"PublicRouteTable\"\r\n"
+    ],
+    [
+      0.000154,
+      "    resource_group_name: \"development\"\r\n"
+    ],
+    [
+      0.000160,
+      "    route.#:             \"\u003ccomputed\u003e\"\r\n    subnets.#:           \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000161,
+      "    tags.%:              \"1\"\r\n"
+    ],
+    [
+      0.000113,
+      "    tags.environment:    \"Development\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000087,
+      "\u001b[0m\u001b[32m+ fixazurerm_subnet.subnet1\r\n"
+    ],
+    [
+      0.000075,
+      "\u001b[0m    address_prefix:            \"10.0.1.0/24\"\r\n"
+    ],
+    [
+      0.000118,
+      "    ip_configurations.#:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000075,
+      "    name:                      \"subnet1\"\r\n"
+    ],
+    [
+      0.000073,
+      "    network_security_group_id: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000181,
+      "    resource_group_name:       \"development\"\r\n"
+    ],
+    [
+      0.000130,
+      "    route_table_id:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000114,
+      "    virtual_network_name:      \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000059,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000120,
+      "\u001b[0m\u001b[32m+ fixazurerm_subnet.subnet2\r\n"
+    ],
+    [
+      0.000081,
+      "\u001b[0m    address_prefix:            \"10.0.2.0/24\"\r\n"
+    ],
+    [
+      0.000141,
+      "    ip_configurations.#:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000114,
+      "    name:                      \"subnet2\"\r\n"
+    ],
+    [
+      0.000118,
+      "    network_security_group_id: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000126,
+      "    resource_group_name:       \"development\"\r\n"
+    ],
+    [
+      0.000110,
+      "    route_table_id:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000109,
+      "    virtual_network_name:      \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000046,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000094,
+      "\u001b[0m\u001b[32m+ fixazurerm_subnet.subnet3\r\n"
+    ],
+    [
+      0.000907,
+      "\u001b[0m    address_prefix:            \"10.0.3.0/24\"\r\n"
+    ],
+    [
+      0.000133,
+      "    ip_configurations.#:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000075,
+      "    name:                      \"subnet3\"\r\n"
+    ],
+    [
+      0.000654,
+      "    network_security_group_id: \"\u003ccomputed\u003e\"\r\n    resource_group_name:       \"development\"\r\n"
+    ],
+    [
+      0.000223,
+      "    route_table_id:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000166,
+      "    virtual_network_name:      \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000036,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000289,
+      "\u001b[0m\u001b[32m+ fixazurerm_virtual_network.network\r\n"
+    ],
+    [
+      0.000184,
+      "\u001b[0m    address_space.#:     \"1\"\r\n"
+    ],
+    [
+      0.000229,
+      "    address_space.0:     \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      0.000388,
+      "    location:            \"southeastasia\"\r\n"
+    ],
+    [
+      0.000196,
+      "    name:                \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000221,
+      "    resource_group_name: \"development\"\r\n"
+    ],
+    [
+      0.000261,
+      "    subnet.#:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000630,
+      "    tags.%:              \"1\"\r\n"
+    ],
+    [
+      0.000263,
+      "    tags.Name:           \"otto\"\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000298,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000247,
+      "\u001b[0m\u001b[1mPlan:\u001b[0m 9 to add, 0 to change, 0 to destroy.\u001b[0m\r\n"
+    ],
+    [
+      0.011912,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "e"
+    ],
+    [
+      0.144141,
+      "x"
+    ],
+    [
+      0.152186,
+      "i"
+    ],
+    [
+      0.175800,
+      "t"
+    ],
+    [
+      0.207892,
+      "\r\n"
+    ],
+    [
+      0.000139,
+      "exit\r\n"
+    ]
+  ]
+}

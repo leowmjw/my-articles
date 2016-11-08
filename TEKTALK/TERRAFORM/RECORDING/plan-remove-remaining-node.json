@@ -1,0 +1,1862 @@
+{
+  "version": 1,
+  "width": 87,
+  "height": 23,
+  "duration": 87.277044,
+  "command": "/bin/bash",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.107437,
+      "\u001b[?1034h"
+    ],
+    [
+      0.000013,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "c"
+    ],
+    [
+      0.080286,
+      "d"
+    ],
+    [
+      0.143522,
+      " "
+    ],
+    [
+      0.640583,
+      "~"
+    ],
+    [
+      0.535834,
+      "/"
+    ],
+    [
+      0.490665,
+      "\r\n"
+    ],
+    [
+      0.000273,
+      "bash-3.2$ "
+    ],
+    [
+      0.000021,
+      "exi"
+    ],
+    [
+      0.000006,
+      "t"
+    ],
+    [
+      1.000000,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.223806,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.184565,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.167933,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.544142,
+      "\u0007"
+    ],
+    [
+      1.000000,
+      "c"
+    ],
+    [
+      0.063946,
+      "d"
+    ],
+    [
+      0.072019,
+      " "
+    ],
+    [
+      0.215633,
+      "-"
+    ],
+    [
+      0.232236,
+      "\r\n"
+    ],
+    [
+      0.000166,
+      "/Users/leow/Documents/MY-ARTICLES/TEKTALK/TERRAFORM\r\n"
+    ],
+    [
+      0.000088,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "c"
+    ],
+    [
+      0.063964,
+      "d"
+    ],
+    [
+      0.160475,
+      " "
+    ],
+    [
+      0.879368,
+      "~"
+    ],
+    [
+      0.416207,
+      "/"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      0.000218,
+      "bash-3.2$ e"
+    ],
+    [
+      0.000008,
+      "xi"
+    ],
+    [
+      0.000016,
+      "t"
+    ],
+    [
+      1.000000,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.224245,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.207604,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.175955,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.447957,
+      "\u0007"
+    ],
+    [
+      1.000000,
+      "c"
+    ],
+    [
+      0.063893,
+      "d"
+    ],
+    [
+      0.128170,
+      " "
+    ],
+    [
+      0.576047,
+      "~"
+    ],
+    [
+      0.472098,
+      "/"
+    ],
+    [
+      1.000000,
+      "D"
+    ],
+    [
+      0.000009,
+      "es"
+    ],
+    [
+      0.000005,
+      "k"
+    ],
+    [
+      0.000005,
+      "t"
+    ],
+    [
+      0.000019,
+      "o"
+    ],
+    [
+      0.000008,
+      "p"
+    ],
+    [
+      0.000005,
+      "/"
+    ],
+    [
+      0.000019,
+      "P"
+    ],
+    [
+      0.000006,
+      "R"
+    ],
+    [
+      0.000019,
+      "O"
+    ],
+    [
+      0.000006,
+      "J"
+    ],
+    [
+      0.000021,
+      "E"
+    ],
+    [
+      0.000008,
+      "C"
+    ],
+    [
+      0.000034,
+      "T"
+    ],
+    [
+      0.000038,
+      "S"
+    ],
+    [
+      0.000020,
+      "/"
+    ],
+    [
+      0.000006,
+      "p"
+    ],
+    [
+      0.000022,
+      "l"
+    ],
+    [
+      0.000006,
+      "a"
+    ],
+    [
+      0.000018,
+      "y"
+    ],
+    [
+      0.000014,
+      "g"
+    ],
+    [
+      0.000018,
+      "r"
+    ],
+    [
+      0.000014,
+      "o"
+    ],
+    [
+      0.000030,
+      "un"
+    ],
+    [
+      0.000041,
+      "d"
+    ],
+    [
+      0.000007,
+      "-"
+    ],
+    [
+      0.000005,
+      "i"
+    ],
+    [
+      0.000029,
+      "n"
+    ],
+    [
+      0.000007,
+      "f"
+    ],
+    [
+      0.000020,
+      "r"
+    ],
+    [
+      0.000018,
+      "a"
+    ],
+    [
+      0.000023,
+      "/"
+    ],
+    [
+      0.000019,
+      "P"
+    ],
+    [
+      0.000022,
+      "O"
+    ],
+    [
+      0.000023,
+      "C"
+    ],
+    [
+      0.000025,
+      "_"
+    ],
+    [
+      0.000035,
+      "P"
+    ],
+    [
+      0.000038,
+      "O"
+    ],
+    [
+      0.000018,
+      "R"
+    ],
+    [
+      0.000030,
+      "T"
+    ],
+    [
+      0.000018,
+      "_"
+    ],
+    [
+      0.000027,
+      "A"
+    ],
+    [
+      0.000027,
+      "W"
+    ],
+    [
+      0.000006,
+      "S"
+    ],
+    [
+      0.000033,
+      "_"
+    ],
+    [
+      0.000007,
+      "T"
+    ],
+    [
+      0.000026,
+      "O"
+    ],
+    [
+      0.000020,
+      "_"
+    ],
+    [
+      0.000024,
+      "A"
+    ],
+    [
+      0.000027,
+      "Z"
+    ],
+    [
+      0.000020,
+      "U"
+    ],
+    [
+      0.000020,
+      "R"
+    ],
+    [
+      0.000040,
+      "E"
+    ],
+    [
+      0.000007,
+      "/"
+    ],
+    [
+      0.000026,
+      "s"
+    ],
+    [
+      0.000024,
+      "i"
+    ],
+    [
+      0.000051,
+      "mp"
+    ],
+    [
+      0.000007,
+      "l"
+    ],
+    [
+      0.000022,
+      "e"
+    ],
+    [
+      0.000029,
+      "/"
+    ],
+    [
+      0.000024,
+      "A"
+    ],
+    [
+      0.000027,
+      "Z"
+    ],
+    [
+      0.000022,
+      "U"
+    ],
+    [
+      0.000026,
+      "R"
+    ],
+    [
+      0.000027,
+      "E"
+    ],
+    [
+      0.000030,
+      "/"
+    ],
+    [
+      0.000033,
+      "f"
+    ],
+    [
+      0.000007,
+      "i"
+    ],
+    [
+      0.000031,
+      "x \r"
+    ],
+    [
+      0.000006,
+      "-"
+    ],
+    [
+      0.000019,
+      "a"
+    ],
+    [
+      0.000007,
+      "z"
+    ],
+    [
+      0.000021,
+      "ur"
+    ],
+    [
+      0.000019,
+      "e"
+    ],
+    [
+      0.000005,
+      "r"
+    ],
+    [
+      0.000034,
+      "m"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      0.062006,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "s"
+    ],
+    [
+      0.224025,
+      "o"
+    ],
+    [
+      0.152192,
+      "u"
+    ],
+    [
+      0.224008,
+      "r"
+    ],
+    [
+      0.647693,
+      "c"
+    ],
+    [
+      0.088020,
+      "e"
+    ],
+    [
+      0.111971,
+      " "
+    ],
+    [
+      0.648303,
+      "~"
+    ],
+    [
+      0.358767,
+      "/"
+    ],
+    [
+      0.249193,
+      "D"
+    ],
+    [
+      0.192019,
+      "e"
+    ],
+    [
+      0.253285,
+      "sktop/"
+    ],
+    [
+      0.610354,
+      "P"
+    ],
+    [
+      0.200364,
+      "R"
+    ],
+    [
+      0.095788,
+      "O"
+    ],
+    [
+      0.533313,
+      "JECTS/"
+    ],
+    [
+      0.859128,
+      "G"
+    ],
+    [
+      0.247800,
+      "O"
+    ],
+    [
+      0.461802,
+      "\u0007LANG"
+    ],
+    [
+      0.898209,
+      "/"
+    ],
+    [
+      0.231750,
+      "s"
+    ],
+    [
+      0.287749,
+      "o"
+    ],
+    [
+      0.112320,
+      "u"
+    ],
+    [
+      0.142499,
+      "rce_golang "
+    ],
+    [
+      0.977399,
+      "\r\n"
+    ],
+    [
+      0.035749,
+      "Setting up the GOLANG binary ..\r\n"
+    ],
+    [
+      0.000189,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "g"
+    ],
+    [
+      0.176019,
+      "i"
+    ],
+    [
+      0.095634,
+      "t"
+    ],
+    [
+      0.088300,
+      " "
+    ],
+    [
+      0.567834,
+      "l"
+    ],
+    [
+      0.199859,
+      "o"
+    ],
+    [
+      0.112404,
+      "g"
+    ],
+    [
+      0.391919,
+      "\r\n"
+    ],
+    [
+      0.653402,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000096,
+      "\u001b[33mcommit 51b56df5c1824c28548c5d0577fae1a18e19928d\u001b[m\r\nAuthor: Michael Leow \u003cleow@sinarproject.org\u003e\r\nDate:   Tue Nov 1 19:16:39 2016 +0800\r\n\r\n    Summary: Single Ubuntu 16.04 LTS\r\n    \r\n    Changesets:\r\n    - Removed the Route Table; seems might not be needed; at least for single node with public IP\r\n    - Add the storage account, cpmtainer and a single virtual machine with username/password\r\n    - TODO: Add another Ubuntu 16.04 LTS but behind load balancer?\r\n    - TODO: Add another Ubuntu 16.04 LTS but this time with ssh password?\r\n\r\n\u001b[33mcommit 0fb79c5c5e4242fc0f73b815459cbb590f25b152\u001b[m\r\nAuthor: Michael Leow \u003cleow@sinarproject.org\u003e\r\nDate:   Tue Nov 1 14:07:52 2016 +0800\r\n\r\n    Summary: Base network setup for fixazurerm provider is working!\r\n    \r\n    Changesets:\r\n    - Ported azurerm base network to the fixazurerm provider; it works!\r\n    - Clean up variables\r\n    - Reenable output again\r\n:\u001b[K"
+    ],
+    [
+      1.000000,
+      "\r\u001b[K\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.058324,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "git log"
+    ],
+    [
+      0.983688,
+      "\r\n"
+    ],
+    [
+      0.178317,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000057,
+      "\u001b[33mcommit 0fb79c5c5e4242fc0f73b815459cbb590f25b152\u001b[m\r\nAuthor: Michael Leow \u003cleow@sinarproject.org\u003e\r\nDate:   Tue Nov 1 14:07:52 2016 +0800\r\n\r\n    Summary: Base network setup for fixazurerm provider is working!\r\n    \r\n    Changesets:\r\n    - Ported azurerm base network to the fixazurerm provider; it works!\r\n    - Clean up variables\r\n    - Reenable output again\r\n    - TODO: Add basic Ubuntu machine; with ssh key?\r\n\r\n\u001b[33mcommit f6e98a38aed3f7db8e6709296168d0c2e40811d8\u001b[m\r\nAuthor: Michael Leow \u003cleow@sinarproject.org\u003e\r\nDate:   Mon Oct 31 23:47:07 2016 +0800\r\n\r\n    Summary: Skeleton for fixazurerm plugin\r\n    \r\n    Changesets:\r\n    - Copied skeleton for fixazurerm for later\r\n    - Will reset the rest\r\n\r\n:\u001b[K"
+    ],
+    [
+      1.000000,
+      "\r\u001b[K\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.001135,
+      "bash-3.2$ "
+    ],
+    [
+      0.958282,
+      "t"
+    ],
+    [
+      0.136194,
+      "e"
+    ],
+    [
+      0.168273,
+      "r"
+    ],
+    [
+      0.175925,
+      "r"
+    ],
+    [
+      0.105888,
+      "a"
+    ],
+    [
+      1.000000,
+      "form "
+    ],
+    [
+      0.862666,
+      "p"
+    ],
+    [
+      0.088261,
+      "l"
+    ],
+    [
+      0.143615,
+      "a"
+    ],
+    [
+      0.184612,
+      "n"
+    ],
+    [
+      0.287610,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "Refreshing Terraform state in-memory prior to plan...\r\n"
+    ],
+    [
+      0.000257,
+      "The refreshed state will be used to calculate this plan, but\r\n"
+    ],
+    [
+      0.000008,
+      "will not be persisted to local or remote state storage.\r\n\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/virtualMachines/acctvm)\u001b[0m\r\n"
+    ],
+    [
+      0.000694,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development)\u001b[0m\r\n"
+    ],
+    [
+      0.246629,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP)\u001b[0m\r\n"
+    ],
+    [
+      0.000421,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork)\u001b[0m\r\n"
+    ],
+    [
+      0.172189,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3)\u001b[0m\r\n\u001b[0m\u001b[1mfixazurerm_storage_container.development: Refreshing state... (ID: vhds)\u001b[0m\r\n"
+    ],
+    [
+      0.000135,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1)\u001b[0m\r\n"
+    ],
+    [
+      0.000660,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2)\u001b[0m\r\n"
+    ],
+    [
+      0.059814,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface)\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Storage/storageAccounts/fixazurermdevsa)\u001b[0m\r\n"
+    ],
+    [
+      0.637934,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "The Terraform execution plan has been generated and is shown below.\r\n"
+    ],
+    [
+      0.028258,
+      "Resources are shown in alphabetical order for quick scanning. Green resources\r\nwill be created (or destroyed and then created if an existing resource\r\n"
+    ],
+    [
+      0.000160,
+      "exists), yellow resources are being changed in-place, and red resources\r\nwill be destroyed. Cyan entries are data sources to be read.\r\n\r\nNote: You didn't specify an \"-out\" parameter to save this plan, so when\r\n\"apply\" is called, Terraform can't guarantee this is what will execute.\r\n\r\n\u001b[32m+ fixazurerm_route.public\r\n\u001b[0m    address_prefix:         \"0.0.0.0/0\"\r\n    name:                   \"InternetRoute\"\r\n    next_hop_in_ip_address: \"\u003ccomputed\u003e\"\r\n    next_hop_type:          \"Internet\"\r\n    resource_group_name:    \"development\"\r\n    route_table_name:       \"PublicRouteTable\"\r\n\u001b[0m\r\n\u001b[0m\u001b[32m+ fixazurerm_route_table.public\r\n\u001b[0m    location:            \"southeastasia\"\r\n    name:                \"PublicRouteTable\"\r\n    resource_group_name: \"development\"\r\n    route.#:             \"\u003ccomputed\u003e\"\r\n    subnets.#:           \"\u003ccomputed\u003e\"\r\n    tags.%:              \"1\"\r\n    tags.environment:    \"Development\"\r\n\u001b[0m\r\n\u001b[0m\u001b[31m- fixazurerm_storage_account.development\r\n\u001b[0m\u001b[0m\r\n\u001b[0m\u001b[31m- fixazurerm_storage_container.developmen"
+    ],
+    [
+      0.000075,
+      "t\r\n\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000425,
+      "\u001b[0m\u001b[31m- fixazurerm_virtual_machine.development\r\n"
+    ],
+    [
+      0.000012,
+      "\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000029,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000235,
+      "\u001b[0m\u001b[1mPlan:\u001b[0m 2 to add, 0 to change, 3 to destroy.\u001b[0m\r\n"
+    ],
+    [
+      0.006090,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "terraform plan"
+    ],
+    [
+      0.576230,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.199924,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.160164,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.159623,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.352199,
+      "a"
+    ],
+    [
+      0.288056,
+      "p"
+    ],
+    [
+      0.167838,
+      "p"
+    ],
+    [
+      0.143950,
+      "l"
+    ],
+    [
+      0.136204,
+      "y"
+    ],
+    [
+      0.288004,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/virtualMachines/acctvm)\u001b[0m\r\n"
+    ],
+    [
+      0.000573,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development)\u001b[0m\r\n"
+    ],
+    [
+      0.374192,
+      "\u001b[0m\u001b[1mfixazurerm_storage_container.development: Refreshing state... (ID: vhds)\u001b[0m\r\n"
+    ],
+    [
+      0.062094,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP)\u001b[0m\r\n"
+    ],
+    [
+      0.001239,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork)\u001b[0m\r\n"
+    ],
+    [
+      0.177329,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3)\u001b[0m\r\n"
+    ],
+    [
+      0.000434,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1)\u001b[0m\r\n"
+    ],
+    [
+      0.000658,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2)\u001b[0m\r\n"
+    ],
+    [
+      0.036144,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface)\u001b[0m\r\n"
+    ],
+    [
+      0.686277,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Storage/storageAccounts/fixazurermdevsa)\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.003084,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000122,
+      "  location:            \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000182,
+      "  name:                \"\" =\u003e \"PublicRouteTable\"\r\n"
+    ],
+    [
+      0.000072,
+      "  resource_group_name: \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000069,
+      "  route.#:             \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000126,
+      "  subnets.#:           \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000126,
+      "  tags.%:              \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000190,
+      "  tags.environment:    \"\" =\u003e \"Development\"\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.001922,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000970,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.544745,
+      "\u001b[0m\u001b[1mfixazurerm_route_table.public: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.042447,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000405,
+      "  address_prefix:         \"\" =\u003e \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      0.000896,
+      "  name:                   \"\" =\u003e \"InternetRoute\"\r\n"
+    ],
+    [
+      0.000097,
+      "  next_hop_in_ip_address: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000409,
+      "  next_hop_type:          \"\" =\u003e \"Internet\"\r\n  resource_group_name:    \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000454,
+      "  route_table_name:       \"\" =\u003e \"PublicRouteTable\"\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.589215,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.589735,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.349574,
+      "\u001b[0m\u001b[1mfixazurerm_route.public: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (1m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (1m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (1m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (1m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (1m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (1m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still destroying... (2m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.353753,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.037206,
+      "\u001b[0m\u001b[1mfixazurerm_storage_container.development: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.524117,
+      "\u001b[0m\u001b[1mfixazurerm_storage_container.development: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.005335,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Destroying...\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Destruction complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.123497,
+      "\u001b[0m\u001b[1m\u001b[32m\r\n"
+    ],
+    [
+      0.000266,
+      "Apply complete! Resources: 2 added, 0 changed, 3 destroyed.\u001b[0m\r\n"
+    ],
+    [
+      0.000478,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000259,
+      "The state of your infrastructure has been saved to the path\r\n"
+    ],
+    [
+      0.000008,
+      "below. This state is required to modify and destroy your\r\n"
+    ],
+    [
+      0.000173,
+      "infrastructure, so keep it safe. To inspect the complete state\r\nuse the `terraform show` command.\r\n\r\n"
+    ],
+    [
+      0.000083,
+      "State path: terraform.tfstate\u001b[0m\r\n"
+    ],
+    [
+      0.000051,
+      "\u001b[0m\u001b[1m\u001b[32m\r\n"
+    ],
+    [
+      0.000007,
+      "Outputs:\r\n\r\n"
+    ],
+    [
+      0.000126,
+      "public_fqdn = mydevelopment.southeastasia.cloudapp.azure.com\r\n"
+    ],
+    [
+      0.000083,
+      "public_ip_adress = 52.163.92.167\r\n"
+    ],
+    [
+      0.000389,
+      "public_ip_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000042,
+      "region = southeastasia\u001b[0m\r\n"
+    ],
+    [
+      0.052689,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "e"
+    ],
+    [
+      0.423138,
+      "x"
+    ],
+    [
+      1.000000,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.271930,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.696093,
+      "terraform apply"
+    ],
+    [
+      0.688035,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.200003,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.168125,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.151434,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.168294,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.864029,
+      "s"
+    ],
+    [
+      0.735727,
+      "h"
+    ],
+    [
+      0.096076,
+      "o"
+    ],
+    [
+      0.135478,
+      "w"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      0.183655,
+      "\r\n"
+    ],
+    [
+      0.400167,
+      "\r\n"
+    ],
+    [
+      0.152119,
+      "\r\n"
+    ],
+    [
+      0.135641,
+      "\r\n"
+    ],
+    [
+      0.791706,
+      "\u001b[0mfixazurerm_network_interface.network_interface:\r\n"
+    ],
+    [
+      0.000465,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface\r\n"
+    ],
+    [
+      0.000102,
+      "  applied_dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000097,
+      "  dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000036,
+      "  enable_ip_forwarding = false\r\n"
+    ],
+    [
+      0.000084,
+      "  ip_configuration.# = 1\r\n"
+    ],
+    [
+      0.000628,
+      "  ip_configuration.3586865974.load_balancer_backend_address_pools_ids.# = 0\r\n"
+    ],
+    [
+      0.000011,
+      "  ip_configuration.3586865974.load_balancer_inbound_nat_rules_ids.# = 0\r\n"
+    ],
+    [
+      0.000146,
+      "  ip_configuration.3586865974.name = ipconfig1\r\n"
+    ],
+    [
+      0.000111,
+      "  ip_configuration.3586865974.private_ip_address = \r\n"
+    ],
+    [
+      0.000187,
+      "  ip_configuration.3586865974.private_ip_address_allocation = dynamic\r\n"
+    ],
+    [
+      0.000593,
+      "  ip_configuration.3586865974.public_ip_address_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000677,
+      "  ip_configuration.3586865974.subnet_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1\r\n"
+    ],
+    [
+      0.000069,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000091,
+      "  mac_address = 00-0D-3A-A0-FC-49\r\n"
+    ],
+    [
+      0.000092,
+      "  name = developmentNetworkInterface\r\n"
+    ],
+    [
+      0.000114,
+      "  private_ip_address = 10.0.1.4\r\n"
+    ],
+    [
+      0.000117,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000043,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000114,
+      "  tags.environment = Development\r\n"
+    ],
+    [
+      0.000358,
+      "  virtual_machine_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/virtualMachines/acctvm\r\n"
+    ],
+    [
+      0.000113,
+      "fixazurerm_public_ip.pubip:\r\n"
+    ],
+    [
+      0.000312,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000118,
+      "  domain_name_label = mydevelopment\r\n"
+    ],
+    [
+      0.000144,
+      "  fqdn = mydevelopment.southeastasia.cloudapp.azure.com\r\n"
+    ],
+    [
+      0.000165,
+      "  ip_address = 52.163.92.167\r\n"
+    ],
+    [
+      0.000069,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000119,
+      "  name = developmentPublicIP\r\n"
+    ],
+    [
+      0.000116,
+      "  public_ip_address_allocation = static\r\n"
+    ],
+    [
+      0.000088,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000047,
+      "  tags.% = 0\r\n"
+    ],
+    [
+      0.000106,
+      "fixazurerm_resource_group.development:\r\n"
+    ],
+    [
+      0.000219,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development\r\n"
+    ],
+    [
+      0.000083,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000058,
+      "  name = development\r\n"
+    ],
+    [
+      0.000043,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000125,
+      "  tags.environment = Development\r\n"
+    ],
+    [
+      0.000995,
+      "fixazurerm_route.public:\r\n"
+    ],
+    [
+      0.000316,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/routeTables/PublicRouteTable/routes/InternetRoute\r\n"
+    ],
+    [
+      0.000135,
+      "  address_prefix = 0.0.0.0/0\r\n"
+    ],
+    [
+      0.000076,
+      "  name = InternetRoute\r\n"
+    ],
+    [
+      0.000102,
+      "  next_hop_type = Internet\r\n"
+    ],
+    [
+      0.000107,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000120,
+      "  route_table_name = PublicRouteTable\r\n"
+    ],
+    [
+      0.000103,
+      "fixazurerm_route_table.public:\r\n"
+    ],
+    [
+      0.000347,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/routeTables/PublicRouteTable\r\n"
+    ],
+    [
+      0.000087,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000115,
+      "  name = PublicRouteTable\r\n"
+    ],
+    [
+      0.000138,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000028,
+      "  route.# = 0\r\n"
+    ],
+    [
+      0.000059,
+      "  subnets.# = 0\r\n"
+    ],
+    [
+      0.000047,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000100,
+      "  tags.environment = Development\r\n"
+    ],
+    [
+      0.000084,
+      "fixazurerm_subnet.subnet1:\r\n"
+    ],
+    [
+      0.000409,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1\r\n"
+    ],
+    [
+      0.000055,
+      "  address_prefix = 10.0.1.0/24\r\n"
+    ],
+    [
+      0.000115,
+      "  ip_configurations.# = 1\r\n"
+    ],
+    [
+      0.000417,
+      "  ip_configurations.1794914769 = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface/ipConfigurations/ipconfig1\r\n"
+    ],
+    [
+      0.000043,
+      "  name = subnet1\r\n"
+    ],
+    [
+      0.000135,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000092,
+      "  virtual_network_name = developmentNetwork\r\n"
+    ],
+    [
+      0.000134,
+      "fixazurerm_subnet.subnet2:\r\n"
+    ],
+    [
+      0.000325,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2\r\n"
+    ],
+    [
+      0.000058,
+      "  address_prefix = 10.0.2.0/24\r\n"
+    ],
+    [
+      0.000079,
+      "  ip_configurations.# = 0\r\n"
+    ],
+    [
+      0.000051,
+      "  name = subnet2\r\n"
+    ],
+    [
+      0.000126,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000149,
+      "  virtual_network_name = developmentNetwork\r\n"
+    ],
+    [
+      0.000123,
+      "fixazurerm_subnet.subnet3:\r\n"
+    ],
+    [
+      0.000340,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3\r\n"
+    ],
+    [
+      0.000069,
+      "  address_prefix = 10.0.3.0/24\r\n"
+    ],
+    [
+      0.000100,
+      "  ip_configurations.# = 0\r\n"
+    ],
+    [
+      0.000042,
+      "  name = subnet3\r\n"
+    ],
+    [
+      0.000097,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000137,
+      "  virtual_network_name = developmentNetwork\r\n"
+    ],
+    [
+      0.000128,
+      "fixazurerm_virtual_network.network:\r\n"
+    ],
+    [
+      0.000375,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork\r\n"
+    ],
+    [
+      0.000185,
+      "  address_space.# = 1\r\n"
+    ],
+    [
+      0.000119,
+      "  address_space.0 = 10.0.0.0/16\r\n"
+    ],
+    [
+      0.000054,
+      "  dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000081,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000089,
+      "  name = developmentNetwork\r\n"
+    ],
+    [
+      0.000109,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000041,
+      "  subnet.# = 3\r\n"
+    ],
+    [
+      0.000158,
+      "  subnet.1472110187.address_prefix = 10.0.1.0/24\r\n"
+    ],
+    [
+      0.000101,
+      "  subnet.1472110187.name = subnet1\r\n"
+    ],
+    [
+      0.000104,
+      "  subnet.1472110187.security_group = \r\n"
+    ],
+    [
+      0.000120,
+      "  subnet.2796830261.address_prefix = 10.0.2.0/24\r\n"
+    ],
+    [
+      0.000114,
+      "  subnet.2796830261.name = subnet2\r\n"
+    ],
+    [
+      0.000091,
+      "  subnet.2796830261.security_group = \r\n"
+    ],
+    [
+      0.000129,
+      "  subnet.4132282879.address_prefix = 10.0.3.0/24\r\n"
+    ],
+    [
+      0.000103,
+      "  subnet.4132282879.name = subnet3\r\n"
+    ],
+    [
+      0.000112,
+      "  subnet.4132282879.security_group = \r\n"
+    ],
+    [
+      0.000036,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000053,
+      "  tags.Name = otto\r\n"
+    ],
+    [
+      0.000016,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000021,
+      "\r\n"
+    ],
+    [
+      0.000022,
+      "Outputs:\r\n"
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000183,
+      "public_fqdn = mydevelopment.southeastasia.cloudapp.azure.com\r\n"
+    ],
+    [
+      0.000096,
+      "public_ip_adress = 52.163.92.167\r\n"
+    ],
+    [
+      0.001799,
+      "public_ip_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000041,
+      "region = southeastasia\u001b[0m\r\n"
+    ],
+    [
+      0.002918,
+      "bash-3.2$ \r\n"
+    ],
+    [
+      0.000010,
+      "bash-3.2$ \r\n"
+    ],
+    [
+      0.000051,
+      "bash-3.2$ "
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000042,
+      "bash-3.2$ "
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000053,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "terraform show"
+    ],
+    [
+      1.000000,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.191892,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.304205,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.199879,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.560101,
+      "o"
+    ],
+    [
+      0.135852,
+      "u"
+    ],
+    [
+      0.056360,
+      "t"
+    ],
+    [
+      0.288158,
+      "puts.tf "
+    ],
+    [
+      0.215692,
+      "\u0007"
+    ],
+    [
+      0.520284,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.191747,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.160106,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.168086,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.495796,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "Usage: terraform [--version] [--help] \u003ccommand\u003e [args]\r\n"
+    ],
+    [
+      0.000011,
+      "\r\n"
+    ],
+    [
+      0.000256,
+      "The available commands for execution are listed below.\r\n"
+    ],
+    [
+      0.000159,
+      "The most common, useful commands are shown first, followed by\r\n"
+    ],
+    [
+      0.000177,
+      "less common or more advanced commands. If you're just getting\r\n"
+    ],
+    [
+      0.000193,
+      "started with Terraform, stick with the common commands. For the\r\n"
+    ],
+    [
+      0.000217,
+      "other commands, please read the help and docs before usage.\r\n"
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000078,
+      "Common commands:\r\n"
+    ],
+    [
+      0.000164,
+      "    apply              Builds or changes infrastructure\r\n"
+    ],
+    [
+      0.000146,
+      "    destroy            Destroy Terraform-managed infrastructure\r\n"
+    ],
+    [
+      0.000221,
+      "    fmt                Rewrites config files to canonical format\r\n"
+    ],
+    [
+      0.000204,
+      "    get                Download and install modules for the configuration\r\n"
+    ],
+    [
+      0.000223,
+      "    graph              Create a visual graph of Terraform resources\r\n"
+    ],
+    [
+      0.000241,
+      "    import             Import existing infrastructure into Terraform\r\n"
+    ],
+    [
+      0.000195,
+      "    init               Initializes Terraform configuration from a module\r\n"
+    ],
+    [
+      0.000155,
+      "    output             Read an output from a state file\r\n"
+    ],
+    [
+      0.000196,
+      "    plan               Generate and show an execution plan\r\n"
+    ],
+    [
+      0.000218,
+      "    push               Upload this Terraform module to Atlas to run\r\n"
+    ],
+    [
+      0.000247,
+      "    refresh            Update local state file against real resources\r\n"
+    ],
+    [
+      0.000262,
+      "    remote             Configure remote state storage\r\n"
+    ],
+    [
+      0.000164,
+      "    show               Inspect Terraform state or plan\r\n"
+    ],
+    [
+      0.000198,
+      "    taint              Manually mark a resource for recreation\r\n"
+    ],
+    [
+      0.000212,
+      "    untaint            Manually unmark a resource as tainted\r\n"
+    ],
+    [
+      0.000166,
+      "    validate           Validates the Terraform files\r\n"
+    ],
+    [
+      0.000140,
+      "    version            Prints the Terraform version\r\n"
+    ],
+    [
+      0.000008,
+      "\r\n"
+    ],
+    [
+      0.000058,
+      "All other commands:\r\n"
+    ],
+    [
+      0.000146,
+      "    state              Advanced state management\r\n"
+    ],
+    [
+      0.019787,
+      "bash-3.2$ "
+    ],
+    [
+      0.983934,
+      "terraform outputs"
+    ],
+    [
+      0.415475,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.360275,
+      "\r\n"
+    ],
+    [
+      0.251247,
+      "public_fqdn = mydevelopment.southeastasia.cloudapp.azure.com\r\npublic_ip_adress = 52.163.92.167\r\n"
+    ],
+    [
+      0.000340,
+      "public_ip_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000084,
+      "region = southeastasia\r\n"
+    ],
+    [
+      0.004685,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      0.000189,
+      "bash-3.2$ "
+    ],
+    [
+      0.151442,
+      "\r\n"
+    ],
+    [
+      0.000097,
+      "bash-3.2$ "
+    ],
+    [
+      0.663891,
+      "e"
+    ],
+    [
+      0.216193,
+      "x"
+    ],
+    [
+      0.176167,
+      "i"
+    ],
+    [
+      0.231923,
+      "t"
+    ],
+    [
+      0.616028,
+      "\r\n"
+    ],
+    [
+      0.000112,
+      "exit\r\n"
+    ]
+  ]
+}

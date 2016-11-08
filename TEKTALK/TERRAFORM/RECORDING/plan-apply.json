@@ -1,0 +1,3898 @@
+{
+  "version": 1,
+  "width": 76,
+  "height": 30,
+  "duration": 150.805483,
+  "command": "/bin/bash",
+  "title": "",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.311780,
+      "\u001b[?1034hbash-3.2$ "
+    ],
+    [
+      1.000000,
+      "c"
+    ],
+    [
+      0.071915,
+      "d"
+    ],
+    [
+      0.088274,
+      " "
+    ],
+    [
+      0.215558,
+      "-"
+    ],
+    [
+      0.376220,
+      "\r\n"
+    ],
+    [
+      0.000134,
+      "bash: cd: OLDPWD not set\r\n"
+    ],
+    [
+      0.000082,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "c"
+    ],
+    [
+      0.000014,
+      "d "
+    ],
+    [
+      0.000005,
+      "~"
+    ],
+    [
+      0.000335,
+      "/Desktop/PROJECTS/playgrou"
+    ],
+    [
+      0.000007,
+      "n"
+    ],
+    [
+      0.000023,
+      "d"
+    ],
+    [
+      0.000006,
+      "-"
+    ],
+    [
+      0.000119,
+      "infra/P"
+    ],
+    [
+      0.000114,
+      "OC_POR"
+    ],
+    [
+      0.000009,
+      "T"
+    ],
+    [
+      0.000102,
+      "_AWS_T"
+    ],
+    [
+      0.000105,
+      "O_AZU"
+    ],
+    [
+      0.000006,
+      "R"
+    ],
+    [
+      0.000025,
+      "E"
+    ],
+    [
+      1.000000,
+      "/"
+    ],
+    [
+      1.000000,
+      "s"
+    ],
+    [
+      0.387190,
+      "imple\re/"
+    ],
+    [
+      0.189081,
+      "\u0007"
+    ],
+    [
+      0.000012,
+      "A"
+    ],
+    [
+      0.552344,
+      "\u0007"
+    ],
+    [
+      0.175417,
+      "\r\n"
+    ],
+    [
+      0.000061,
+      "AWS/   AZURE/ \r\n"
+    ],
+    [
+      0.000009,
+      "bash-3.2$ cd ~/Desktop/PROJECTS/playground-infra/POC_PORT_AWS_TO_AZURE/simple\re/A"
+    ],
+    [
+      0.968199,
+      "Z"
+    ],
+    [
+      0.255354,
+      "U"
+    ],
+    [
+      0.175931,
+      "RE/"
+    ],
+    [
+      0.211239,
+      "\u0007"
+    ],
+    [
+      0.109498,
+      "\r\n"
+    ],
+    [
+      0.000084,
+      "fix-azurerm/ infra-dev/   \r\n"
+    ],
+    [
+      0.000025,
+      "bash-3.2$ cd ~/Desktop/PROJECTS/playground-infra/POC_PORT_AWS_TO_AZURE/simple\re/AZURE/"
+    ],
+    [
+      1.000000,
+      "f"
+    ],
+    [
+      0.271615,
+      "i"
+    ],
+    [
+      0.088955,
+      "x-azurerm/"
+    ],
+    [
+      0.471518,
+      "\r\n"
+    ],
+    [
+      0.000280,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "s"
+    ],
+    [
+      0.232159,
+      "o"
+    ],
+    [
+      0.096400,
+      "u"
+    ],
+    [
+      0.079569,
+      "r"
+    ],
+    [
+      0.239785,
+      "c"
+    ],
+    [
+      0.096031,
+      "e"
+    ],
+    [
+      0.120240,
+      " "
+    ],
+    [
+      0.536241,
+      "~"
+    ],
+    [
+      0.383562,
+      "/"
+    ],
+    [
+      0.248142,
+      "D"
+    ],
+    [
+      0.216071,
+      "e"
+    ],
+    [
+      0.222752,
+      "sktop/"
+    ],
+    [
+      0.521149,
+      "P"
+    ],
+    [
+      0.167617,
+      "R"
+    ],
+    [
+      0.128515,
+      "O"
+    ],
+    [
+      0.477981,
+      "JECTS/"
+    ],
+    [
+      1.000000,
+      "G"
+    ],
+    [
+      0.232117,
+      "O"
+    ],
+    [
+      0.250958,
+      "\u0007LANG"
+    ],
+    [
+      0.957194,
+      "/"
+    ],
+    [
+      0.175443,
+      "s"
+    ],
+    [
+      0.224228,
+      "o"
+    ],
+    [
+      0.111933,
+      "u"
+    ],
+    [
+      0.137190,
+      "rce_golang "
+    ],
+    [
+      0.486838,
+      "\r\n"
+    ],
+    [
+      0.026612,
+      "Setting up the GOLANG binary ..\r\n"
+    ],
+    [
+      0.000214,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "t"
+    ],
+    [
+      0.144415,
+      "e"
+    ],
+    [
+      0.191438,
+      "r"
+    ],
+    [
+      0.184316,
+      "r"
+    ],
+    [
+      0.095831,
+      "a"
+    ],
+    [
+      1.000000,
+      "form "
+    ],
+    [
+      0.956865,
+      "p"
+    ],
+    [
+      0.076649,
+      "l"
+    ],
+    [
+      0.144380,
+      "a"
+    ],
+    [
+      0.143928,
+      "n"
+    ],
+    [
+      0.360191,
+      "\r\n"
+    ],
+    [
+      0.255699,
+      "\r\n"
+    ],
+    [
+      0.159754,
+      "\r\n"
+    ],
+    [
+      0.151787,
+      "\r\n"
+    ],
+    [
+      0.168193,
+      "\r\n"
+    ],
+    [
+      0.159689,
+      "\r\n"
+    ],
+    [
+      0.176264,
+      "\r\n"
+    ],
+    [
+      0.159810,
+      "\r\n"
+    ],
+    [
+      0.176559,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "Refreshing Terraform state in-memory prior to plan...\r\n"
+    ],
+    [
+      0.000190,
+      "The refreshed state will be used to calculate this plan, but\r\n"
+    ],
+    [
+      0.000203,
+      "will not be persisted to local or remote state storage.\r\n\r\n"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "The Terraform execution plan has been generated and is shown below.\r\n"
+    ],
+    [
+      0.000144,
+      "Resources are shown in alphabetical order for quick scanning. Green resources\r\n"
+    ],
+    [
+      0.000202,
+      "will be created (or destroyed and then created if an existing resource\r\n"
+    ],
+    [
+      0.000294,
+      "exists), yellow resources are being changed in-place, and red resources\r\n"
+    ],
+    [
+      0.000188,
+      "will be destroyed. Cyan entries are data sources to be read.\r\n\r\n"
+    ],
+    [
+      0.000007,
+      "Note: You didn't specify an \"-out\" parameter to save this plan, so when\r\n"
+    ],
+    [
+      0.000141,
+      "\"apply\" is called, Terraform can't guarantee this is what will execute.\r\n\r\n"
+    ],
+    [
+      0.000134,
+      "\u001b[32m+ fixazurerm_availability_set.development\r\n"
+    ],
+    [
+      0.000144,
+      "\u001b[0m    location:                     \"southeastasia\"\r\n"
+    ],
+    [
+      0.000159,
+      "    name:                         \"devavailabilityset\"\r\n"
+    ],
+    [
+      0.000127,
+      "    platform_fault_domain_count:  \"3\"\r\n"
+    ],
+    [
+      0.000115,
+      "    platform_update_domain_count: \"5\"\r\n"
+    ],
+    [
+      0.000051,
+      "    resource_group_name:          \"development\"\r\n"
+    ],
+    [
+      0.000087,
+      "    tags.%:                       \"1\"\r\n"
+    ],
+    [
+      0.000137,
+      "    tags.environment:             \"Development\"\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000120,
+      "\u001b[0m\u001b[32m+ fixazurerm_network_interface.netint2\r\n"
+    ],
+    [
+      0.000224,
+      "\u001b[0m    applied_dns_servers.#:                                                  \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000246,
+      "    dns_servers.#:                                                          \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000200,
+      "    enable_ip_forwarding:                                                   \"false\"\r\n"
+    ],
+    [
+      0.000243,
+      "    internal_dns_name_label:                                                \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000363,
+      "    internal_fqdn:                                                          \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000197,
+      "    ip_configuration.#:                                                     \"1\"\r\n"
+    ],
+    [
+      0.000219,
+      "    ip_configuration.~2676036454.load_balancer_backend_address_pools_ids.#: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000193,
+      "    ip_configuration.~2676036454.load_balancer_inbound_nat_rules_ids.#:     \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000227,
+      "    ip_configuration.~2676036454.name:                                      \"ipconfig1\"\r\n"
+    ],
+    [
+      0.001032,
+      "    ip_configuration.~2676036454.private_ip_address:                        \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000218,
+      "    ip_configuration.~2676036454.private_ip_address_allocation:             \"dynamic\"\r\n"
+    ],
+    [
+      0.000191,
+      "    ip_configuration.~2676036454.public_ip_address_id:                      \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000240,
+      "    ip_configuration.~2676036454.subnet_id:                                 \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000210,
+      "    location:                                                               \"southeastasia\"\r\n"
+    ],
+    [
+      0.000225,
+      "    mac_address:                                                            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000220,
+      "    name:                                                                   \"devNetworkInterface2\"\r\n"
+    ],
+    [
+      0.000188,
+      "    network_security_group_id:                                              \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000203,
+      "    private_ip_address:                                                     \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000185,
+      "    resource_group_name:                                                    \"development\"\r\n"
+    ],
+    [
+      0.000261,
+      "    tags.%:                                                                 \"1\"\r\n"
+    ],
+    [
+      0.000184,
+      "    tags.type:                                                              \"Backup\"\r\n"
+    ],
+    [
+      0.000207,
+      "    virtual_machine_id:                                                     \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000008,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000139,
+      "\u001b[0m\u001b[32m+ fixazurerm_network_interface.network_interface\r\n"
+    ],
+    [
+      0.000229,
+      "\u001b[0m    applied_dns_servers.#:                                                 \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000246,
+      "    dns_servers.#:                                                         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000196,
+      "    enable_ip_forwarding:                                                  \"false\"\r\n"
+    ],
+    [
+      0.000200,
+      "    internal_dns_name_label:                                               \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000336,
+      "    internal_fqdn:                                                         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000170,
+      "    ip_configuration.#:                                                    \"1\"\r\n"
+    ],
+    [
+      0.000190,
+      "    ip_configuration.~644031687.load_balancer_backend_address_pools_ids.#: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000199,
+      "    ip_configuration.~644031687.load_balancer_inbound_nat_rules_ids.#:     \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000202,
+      "    ip_configuration.~644031687.name:                                      \"ipconfig1\"\r\n"
+    ],
+    [
+      0.000188,
+      "    ip_configuration.~644031687.private_ip_address:                        \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000212,
+      "    ip_configuration.~644031687.private_ip_address_allocation:             \"dynamic\"\r\n"
+    ],
+    [
+      0.000220,
+      "    ip_configuration.~644031687.public_ip_address_id:                      \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000180,
+      "    ip_configuration.~644031687.subnet_id:                                 \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000208,
+      "    location:                                                              \"southeastasia\"\r\n"
+    ],
+    [
+      0.000193,
+      "    mac_address:                                                           \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000247,
+      "    name:                                                                  \"developmentNetworkInterface\"\r\n"
+    ],
+    [
+      0.000199,
+      "    network_security_group_id:                                             \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000187,
+      "    private_ip_address:                                                    \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000217,
+      "    resource_group_name:                                                   \"development\"\r\n"
+    ],
+    [
+      0.000193,
+      "    tags.%:                                                                \"1\"\r\n"
+    ],
+    [
+      0.001533,
+      "    tags.environment:                                                      \"Development\"\r\n"
+    ],
+    [
+      0.000210,
+      "    virtual_machine_id:                                                    \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000116,
+      "\u001b[0m\u001b[32m+ fixazurerm_public_ip.pubip\r\n"
+    ],
+    [
+      0.000161,
+      "\u001b[0m    domain_name_label:            \"mydevelopment\"\r\n"
+    ],
+    [
+      0.000140,
+      "    fqdn:                         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000118,
+      "    ip_address:                   \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000130,
+      "    location:                     \"southeastasia\"\r\n"
+    ],
+    [
+      0.000264,
+      "    name:                         \"developmentPublicIP\"\r\n"
+    ],
+    [
+      0.000120,
+      "    public_ip_address_allocation: \"static\"\r\n"
+    ],
+    [
+      0.000138,
+      "    resource_group_name:          \"development\"\r\n"
+    ],
+    [
+      0.000144,
+      "    tags.%:                       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000010,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000128,
+      "\u001b[0m\u001b[32m+ fixazurerm_public_ip.pubip2\r\n"
+    ],
+    [
+      0.000109,
+      "\u001b[0m    domain_name_label:            \"mydev2\"\r\n"
+    ],
+    [
+      0.000115,
+      "    fqdn:                         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000109,
+      "    ip_address:                   \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000126,
+      "    location:                     \"southeastasia\"\r\n"
+    ],
+    [
+      0.000137,
+      "    name:                         \"devPublicIP2\"\r\n"
+    ],
+    [
+      0.000115,
+      "    public_ip_address_allocation: \"dynamic\"\r\n"
+    ],
+    [
+      0.000118,
+      "    resource_group_name:          \"development\"\r\n"
+    ],
+    [
+      0.000093,
+      "    tags.%:                       \"1\"\r\n"
+    ],
+    [
+      0.000084,
+      "    tags.type:                    \"Backup\"\r\n"
+    ],
+    [
+      0.000039,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000140,
+      "\u001b[0m\u001b[32m+ fixazurerm_resource_group.development\r\n"
+    ],
+    [
+      0.000105,
+      "\u001b[0m    location:         \"southeastasia\"\r\n"
+    ],
+    [
+      0.000092,
+      "    name:             \"development\"\r\n"
+    ],
+    [
+      0.000080,
+      "    tags.%:           \"1\"\r\n"
+    ],
+    [
+      0.000111,
+      "    tags.environment: \"Development\"\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000135,
+      "\u001b[0m\u001b[32m+ fixazurerm_storage_account.development\r\n"
+    ],
+    [
+      0.000133,
+      "\u001b[0m    access_tier:              \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000089,
+      "    account_kind:             \"Storage\"\r\n"
+    ],
+    [
+      0.000110,
+      "    account_type:             \"Standard_LRS\"\r\n"
+    ],
+    [
+      0.000104,
+      "    location:                 \"southeastasia\"\r\n"
+    ],
+    [
+      0.000122,
+      "    name:                     \"fixazurermdevsa\"\r\n"
+    ],
+    [
+      0.000103,
+      "    primary_access_key:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000100,
+      "    primary_blob_endpoint:    \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000145,
+      "    primary_file_endpoint:    \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000128,
+      "    primary_location:         \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000093,
+      "    primary_queue_endpoint:   \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000114,
+      "    primary_table_endpoint:   \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000101,
+      "    resource_group_name:      \"development\"\r\n"
+    ],
+    [
+      0.000090,
+      "    secondary_access_key:     \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000090,
+      "    secondary_blob_endpoint:  \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000132,
+      "    secondary_location:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000108,
+      "    secondary_queue_endpoint: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000095,
+      "    secondary_table_endpoint: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000088,
+      "    tags.%:                   \"1\"\r\n"
+    ],
+    [
+      0.000104,
+      "    tags.environment:         \"Development\"\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000141,
+      "\u001b[0m\u001b[32m+ fixazurerm_storage_container.development\r\n"
+    ],
+    [
+      0.000137,
+      "\u001b[0m    container_access_type: \"private\"\r\n"
+    ],
+    [
+      0.000077,
+      "    name:                  \"vhds\"\r\n"
+    ],
+    [
+      0.000107,
+      "    properties.%:          \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000125,
+      "    resource_group_name:   \"development\"\r\n"
+    ],
+    [
+      0.000097,
+      "    storage_account_name:  \"fixazurermdevsa\"\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000144,
+      "\u001b[0m\u001b[32m+ fixazurerm_subnet.subnet1\r\n"
+    ],
+    [
+      0.000236,
+      "\u001b[0m    address_prefix:            \"10.0.1.0/24\"\r\n"
+    ],
+    [
+      0.000095,
+      "    ip_configurations.#:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000118,
+      "    name:                      \"subnet1\"\r\n"
+    ],
+    [
+      0.000214,
+      "    network_security_group_id: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000119,
+      "    resource_group_name:       \"development\"\r\n"
+    ],
+    [
+      0.000112,
+      "    route_table_id:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000118,
+      "    virtual_network_name:      \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000113,
+      "\u001b[0m\u001b[32m+ fixazurerm_subnet.subnet2\r\n"
+    ],
+    [
+      0.000130,
+      "\u001b[0m    address_prefix:            \"10.0.2.0/24\"\r\n"
+    ],
+    [
+      0.000132,
+      "    ip_configurations.#:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000144,
+      "    name:                      \"subnet2\"\r\n"
+    ],
+    [
+      0.000087,
+      "    network_security_group_id: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000123,
+      "    resource_group_name:       \"development\"\r\n"
+    ],
+    [
+      0.000109,
+      "    route_table_id:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000119,
+      "    virtual_network_name:      \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000028,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000091,
+      "\u001b[0m\u001b[32m+ fixazurerm_subnet.subnet3\r\n"
+    ],
+    [
+      0.000127,
+      "\u001b[0m    address_prefix:            \"10.0.3.0/24\"\r\n"
+    ],
+    [
+      0.000111,
+      "    ip_configurations.#:       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000101,
+      "    name:                      \"subnet3\"\r\n"
+    ],
+    [
+      0.000098,
+      "    network_security_group_id: \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000118,
+      "    resource_group_name:       \"development\"\r\n"
+    ],
+    [
+      0.000125,
+      "    route_table_id:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000116,
+      "    virtual_network_name:      \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000133,
+      "\u001b[0m\u001b[32m+ fixazurerm_virtual_machine.dev2\r\n"
+    ],
+    [
+      0.000220,
+      "\u001b[0m    availability_set_id:                                              \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000218,
+      "    delete_data_disks_on_termination:                                 \"false\"\r\n"
+    ],
+    [
+      0.000165,
+      "    delete_os_disk_on_termination:                                    \"false\"\r\n"
+    ],
+    [
+      0.000189,
+      "    license_type:                                                     \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000176,
+      "    location:                                                         \"southeastasia\"\r\n"
+    ],
+    [
+      0.000188,
+      "    name:                                                             \"backupvm\"\r\n"
+    ],
+    [
+      0.000212,
+      "    network_interface_ids.#:                                          \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000154,
+      "    os_profile.#:                                                     \"1\"\r\n"
+    ],
+    [
+      0.000169,
+      "    os_profile.2650495362.admin_password:                             \"passw0rd\"\r\n"
+    ],
+    [
+      0.000169,
+      "    os_profile.2650495362.admin_username:                             \"leowmjw\"\r\n"
+    ],
+    [
+      0.000191,
+      "    os_profile.2650495362.computer_name:                              \"backuphost\"\r\n"
+    ],
+    [
+      0.000385,
+      "    os_profile.2650495362.custom_data:                                \"IyEvYmluL2Jhc2gKIwoKZWNobyAiTE9DSy1DTE9VRF9JTklUIiA+L3RtcC9teWxvY2sKYXB0LWdldCB1cGRhdGUgJiYgYXB0LWdldCBpbnN0YWxsIC15IHBocC1mcG0K\"\r\n"
+    ],
+    [
+      0.000160,
+      "    os_profile_linux_config.#:                                        \"1\"\r\n"
+    ],
+    [
+      0.000202,
+      "    os_profile_linux_config.69840937.disable_password_authentication: \"true\"\r\n"
+    ],
+    [
+      0.000166,
+      "    os_profile_linux_config.69840937.ssh_keys.#:                      \"1\"\r\n"
+    ],
+    [
+      0.000893,
+      "    os_profile_linux_config.69840937.ssh_keys.0.key_data:             \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTCMfzrR3xxBwNaIbAv8JTgeiqlX3UZj4hzKsWWVcJ4cyCvqT0C04uhM3echcZfHznZcMtdVXJyr+zYWZGkOGtcUJ1w1H1Xm6aCbNjQuWnuDp+AnzEz7M4tnsGlvotj+QjQBnbOg2g8QqbmhDtv9izmJTNYsXT/pfFpYHcunFJzo6C20o4fQTRoZrdkLhwbRwZ2gW2GFT30a7v3C/9b/Yi5Vk7ECGHf7cD2RmDipb7vwU32qAAHDrFRsarcr7mf6nRq/IZo9lGYr0zyKXabaEI20i+GitFm+RHfWwQUaY7iIBz+PhtAwEtYeHGxUlwdgRcQbC1RONCODwSVh01E+HD leow@syamhasan-2.local\\n\"\r\n"
+    ],
+    [
+      0.000213,
+      "    os_profile_linux_config.69840937.ssh_keys.0.path:                 \"/home/leowmjw/.ssh/authorized_keys\"\r\n"
+    ],
+    [
+      0.000159,
+      "    plan.#:                                                           \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000193,
+      "    resource_group_name:                                              \"development\"\r\n"
+    ],
+    [
+      0.000137,
+      "    storage_image_reference.#:                                        \"1\"\r\n"
+    ],
+    [
+      0.000161,
+      "    storage_image_reference.2115656022.offer:                         \"UbuntuServer\"\r\n"
+    ],
+    [
+      0.000186,
+      "    storage_image_reference.2115656022.publisher:                     \"Canonical\"\r\n"
+    ],
+    [
+      0.000181,
+      "    storage_image_reference.2115656022.sku:                           \"16.04.0-LTS\"\r\n"
+    ],
+    [
+      0.000197,
+      "    storage_image_reference.2115656022.version:                       \"latest\"\r\n"
+    ],
+    [
+      0.000173,
+      "    storage_os_disk.#:                                                \"1\"\r\n"
+    ],
+    [
+      0.000162,
+      "    storage_os_disk.~579772808.caching:                               \"ReadWrite\"\r\n"
+    ],
+    [
+      0.000181,
+      "    storage_os_disk.~579772808.create_option:                         \"FromImage\"\r\n"
+    ],
+    [
+      0.000176,
+      "    storage_os_disk.~579772808.disk_size_gb:                          \"\"\r\n"
+    ],
+    [
+      0.000174,
+      "    storage_os_disk.~579772808.image_uri:                             \"\"\r\n"
+    ],
+    [
+      0.000201,
+      "    storage_os_disk.~579772808.name:                                  \"myosdisk2\"\r\n"
+    ],
+    [
+      0.000156,
+      "    storage_os_disk.~579772808.os_type:                               \"\"\r\n"
+    ],
+    [
+      0.000194,
+      "    storage_os_disk.~579772808.vhd_uri:                               \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000165,
+      "    tags.%:                                                           \"1\"\r\n"
+    ],
+    [
+      0.000163,
+      "    tags.type:                                                        \"Backup\"\r\n"
+    ],
+    [
+      0.000174,
+      "    vm_size:                                                          \"Standard_A0\"\r\n"
+    ],
+    [
+      0.000006,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000668,
+      "\u001b[0m\u001b[32m+ fixazurerm_virtual_machine.development\r\n"
+    ],
+    [
+      0.000186,
+      "\u001b[0m    availability_set_id:                                                \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000175,
+      "    delete_data_disks_on_termination:                                   \"false\"\r\n"
+    ],
+    [
+      0.000224,
+      "    delete_os_disk_on_termination:                                      \"false\"\r\n"
+    ],
+    [
+      0.000223,
+      "    license_type:                                                       \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000191,
+      "    location:                                                           \"southeastasia\"\r\n"
+    ],
+    [
+      0.000352,
+      "    name:                                                               \"acctvm\"\r\n"
+    ],
+    [
+      0.000174,
+      "    network_interface_ids.#:                                            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000237,
+      "    os_profile.#:                                                       \"1\"\r\n"
+    ],
+    [
+      0.000264,
+      "    os_profile.1173764063.admin_password:                               \"Password1234!\"\r\n"
+    ],
+    [
+      0.000226,
+      "    os_profile.1173764063.admin_username:                               \"testadmin\"\r\n"
+    ],
+    [
+      0.000217,
+      "    os_profile.1173764063.computer_name:                                \"hostname\"\r\n"
+    ],
+    [
+      0.000262,
+      "    os_profile.1173764063.custom_data:                                  \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000223,
+      "    os_profile_linux_config.#:                                          \"1\"\r\n"
+    ],
+    [
+      0.000219,
+      "    os_profile_linux_config.2972667452.disable_password_authentication: \"false\"\r\n"
+    ],
+    [
+      0.000240,
+      "    os_profile_linux_config.2972667452.ssh_keys.#:                      \"0\"\r\n"
+    ],
+    [
+      0.000203,
+      "    plan.#:                                                             \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000259,
+      "    resource_group_name:                                                \"development\"\r\n"
+    ],
+    [
+      0.000193,
+      "    storage_image_reference.#:                                          \"1\"\r\n"
+    ],
+    [
+      0.002939,
+      "    storage_image_reference.2115656022.offer:                           \"UbuntuServer\"\r\n"
+    ],
+    [
+      0.000528,
+      "    storage_image_reference.2115656022.publisher:                       \"Canonical\"\r\n"
+    ],
+    [
+      0.000203,
+      "    storage_image_reference.2115656022.sku:                             \"16.04.0-LTS\"\r\n"
+    ],
+    [
+      0.000172,
+      "    storage_image_reference.2115656022.version:                         \"latest\"\r\n"
+    ],
+    [
+      0.000179,
+      "    storage_os_disk.#:                                                  \"1\"\r\n"
+    ],
+    [
+      0.000156,
+      "    storage_os_disk.~4028288115.caching:                                \"ReadWrite\"\r\n"
+    ],
+    [
+      0.000173,
+      "    storage_os_disk.~4028288115.create_option:                          \"FromImage\"\r\n"
+    ],
+    [
+      0.000721,
+      "    storage_os_disk.~4028288115.disk_size_gb:                           \"\"\r\n"
+    ],
+    [
+      0.000011,
+      "    storage_os_disk.~4028288115.image_uri:                              \"\"\r\n    storage_os_disk.~4028288115.name:                                   \"myosdisk1\"\r\n"
+    ],
+    [
+      0.000010,
+      "    storage_os_disk.~4028288115.os_type:                                \"\"\r\n"
+    ],
+    [
+      0.000205,
+      "    storage_os_disk.~4028288115.vhd_uri:                                \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000172,
+      "    tags.%:                                                             \"1\"\r\n"
+    ],
+    [
+      0.000198,
+      "    tags.environment:                                                   \"Development\"\r\n"
+    ],
+    [
+      0.000212,
+      "    vm_size:                                                            \"Standard_A0\"\r\n"
+    ],
+    [
+      0.000007,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000124,
+      "\u001b[0m\u001b[32m+ fixazurerm_virtual_network.network\r\n"
+    ],
+    [
+      0.000088,
+      "\u001b[0m    address_space.#:     \"1\"\r\n"
+    ],
+    [
+      0.000107,
+      "    address_space.0:     \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      0.000090,
+      "    location:            \"southeastasia\"\r\n"
+    ],
+    [
+      0.000117,
+      "    name:                \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000116,
+      "    resource_group_name: \"development\"\r\n"
+    ],
+    [
+      0.000088,
+      "    subnet.#:            \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000072,
+      "    tags.%:              \"1\"\r\n"
+    ],
+    [
+      0.000073,
+      "    tags.Name:           \"otto\"\r\n"
+    ],
+    [
+      0.000015,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000046,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000119,
+      "\u001b[0m\u001b[1mPlan:\u001b[0m 14 to add, 0 to change, 0 to destroy.\u001b[0m\r\n"
+    ],
+    [
+      0.004794,
+      "bash-3.2$ "
+    ],
+    [
+      0.000014,
+      "\r\nbash-3.2$ "
+    ],
+    [
+      0.000004,
+      "\r\n"
+    ],
+    [
+      0.000057,
+      "bash-3.2$ "
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000045,
+      "bash-3.2$ "
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000041,
+      "bash-3.2$ "
+    ],
+    [
+      0.000005,
+      "\r\n"
+    ],
+    [
+      0.000061,
+      "bash-3.2$ \r\n"
+    ],
+    [
+      0.000059,
+      "bash-3.2$ \r\n"
+    ],
+    [
+      0.000047,
+      "bash-3.2$ "
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000047,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "terraform plan"
+    ],
+    [
+      0.551992,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.192341,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.175623,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.152202,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.255868,
+      "a"
+    ],
+    [
+      0.207959,
+      "p"
+    ],
+    [
+      0.176209,
+      "p"
+    ],
+    [
+      0.111918,
+      "l"
+    ],
+    [
+      0.120215,
+      "y"
+    ],
+    [
+      0.231737,
+      "\r\n"
+    ],
+    [
+      0.863698,
+      "\r\n"
+    ],
+    [
+      0.143968,
+      "\r\n"
+    ],
+    [
+      0.168224,
+      "\r\n"
+    ],
+    [
+      0.160221,
+      "\r\n"
+    ],
+    [
+      0.152093,
+      "\r\n"
+    ],
+    [
+      0.135918,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000146,
+      "  location:         \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000185,
+      "  name:             \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000010,
+      "  tags.%:           \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000108,
+      "  tags.environment: \"\" =\u003e \"Development\"\u001b[0m\r\n"
+    ],
+    [
+      0.407766,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.084588,
+      "\u001b[0m\u001b[1mfixazurerm_availability_set.development: Creating...\u001b[21m\r\n  location:                     \"\" =\u003e \"southeastasia\"\r\n  name:                         \"\" =\u003e \"devavailabilityset\"\r\n  platform_fault_domain_count:  \"\" =\u003e \"3\"\r\n  platform_update_domain_count: \"\" =\u003e \"5\"\r\n"
+    ],
+    [
+      0.000011,
+      "  resource_group_name:          \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000639,
+      "  tags.%:                       \"\" =\u003e \"1\"\r\n  tags.environment:             \"\" =\u003e \"Development\"\u001b[0m\r\n\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Creating...\u001b[21m\r\n  domain_name_label:            \"\" =\u003e \"mydevelopment\"\r\n"
+    ],
+    [
+      0.000425,
+      "  fqdn:                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n  ip_address:                   \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000013,
+      "  location:                     \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000210,
+      "  name:                         \"\" =\u003e \"developmentPublicIP\"\r\n  public_ip_address_allocation: \"\" =\u003e \"static\"\r\n"
+    ],
+    [
+      0.000044,
+      "  resource_group_name:          \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000127,
+      "  tags.%:                       \"\" =\u003e \"\u003ccomputed\u003e\"\u001b[0m\r\n"
+    ],
+    [
+      0.000226,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000093,
+      "  address_space.#:     \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000097,
+      "  address_space.0:     \"\" =\u003e \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      0.000154,
+      "  location:            \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000139,
+      "  name:                \"\" =\u003e \"developmentNetwork\"\r\n"
+    ],
+    [
+      0.000115,
+      "  resource_group_name: \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000097,
+      "  subnet.#:            \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000114,
+      "  tags.%:              \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000135,
+      "  tags.Name:           \"\" =\u003e \"otto\"\u001b[0m\r\n"
+    ],
+    [
+      0.000138,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip2: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000146,
+      "  domain_name_label:            \"\" =\u003e \"mydev2\"\r\n"
+    ],
+    [
+      0.000159,
+      "  fqdn:                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000137,
+      "  ip_address:                   \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000141,
+      "  location:                     \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000123,
+      "  name:                         \"\" =\u003e \"devPublicIP2\"\r\n"
+    ],
+    [
+      0.000143,
+      "  public_ip_address_allocation: \"\" =\u003e \"dynamic\"\r\n"
+    ],
+    [
+      0.000133,
+      "  resource_group_name:          \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000723,
+      "  tags.%:                       \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000124,
+      "  tags.type:                    \"\" =\u003e \"Backup\"\u001b[0m\r\n"
+    ],
+    [
+      0.000143,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000135,
+      "  access_tier:              \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000160,
+      "  account_kind:             \"\" =\u003e \"Storage\"\r\n"
+    ],
+    [
+      0.000192,
+      "  account_type:             \"\" =\u003e \"Standard_LRS\"\r\n"
+    ],
+    [
+      0.000137,
+      "  location:                 \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000130,
+      "  name:                     \"\" =\u003e \"fixazurermdevsa\"\r\n"
+    ],
+    [
+      0.000133,
+      "  primary_access_key:       \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000126,
+      "  primary_blob_endpoint:    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000122,
+      "  primary_file_endpoint:    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000122,
+      "  primary_location:         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000110,
+      "  primary_queue_endpoint:   \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000142,
+      "  primary_table_endpoint:   \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000125,
+      "  resource_group_name:      \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000107,
+      "  secondary_access_key:     \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000100,
+      "  secondary_blob_endpoint:  \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000128,
+      "  secondary_location:       \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000128,
+      "  secondary_queue_endpoint: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000112,
+      "  secondary_table_endpoint: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000107,
+      "  tags.%:                   \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000139,
+      "  tags.environment:         \"\" =\u003e \"Development\"\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_availability_set.development: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.006281,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000240,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip2: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000237,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.007867,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000275,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip2: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000238,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.006084,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Creating...\u001b[21m\r\n  address_prefix:            \"\" =\u003e \"10.0.2.0/24\"\r\n"
+    ],
+    [
+      0.000097,
+      "  ip_configurations.#:       \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000072,
+      "  name:                      \"\" =\u003e \"subnet2\"\r\n"
+    ],
+    [
+      0.000260,
+      "  network_security_group_id: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n  resource_group_name:       \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000175,
+      "  route_table_id:            \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000186,
+      "  virtual_network_name:      \"\" =\u003e \"developmentNetwork\"\u001b[0m\r\n"
+    ],
+    [
+      0.000136,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000133,
+      "  address_prefix:            \"\" =\u003e \"10.0.3.0/24\"\r\n"
+    ],
+    [
+      0.000104,
+      "  ip_configurations.#:       \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000126,
+      "  name:                      \"\" =\u003e \"subnet3\"\r\n"
+    ],
+    [
+      0.000131,
+      "  network_security_group_id: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000124,
+      "  resource_group_name:       \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000112,
+      "  route_table_id:            \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000163,
+      "  virtual_network_name:      \"\" =\u003e \"developmentNetwork\"\u001b[0m\r\n"
+    ],
+    [
+      0.000117,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000115,
+      "  address_prefix:            \"\" =\u003e \"10.0.1.0/24\"\r\n"
+    ],
+    [
+      0.000119,
+      "  ip_configurations.#:       \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000115,
+      "  name:                      \"\" =\u003e \"subnet1\"\r\n"
+    ],
+    [
+      0.000101,
+      "  network_security_group_id: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000122,
+      "  resource_group_name:       \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000145,
+      "  route_table_id:            \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000138,
+      "  virtual_network_name:      \"\" =\u003e \"developmentNetwork\"\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip2: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.017808,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000529,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000283,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000467,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000234,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.414818,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.005234,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000259,
+      "  applied_dns_servers.#:                                                 \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000182,
+      "  dns_servers.#:                                                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000262,
+      "  enable_ip_forwarding:                                                  \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.000214,
+      "  internal_dns_name_label:                                               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000272,
+      "  internal_fqdn:                                                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000220,
+      "  ip_configuration.#:                                                    \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000245,
+      "  ip_configuration.3586865974.load_balancer_backend_address_pools_ids.#: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000220,
+      "  ip_configuration.3586865974.load_balancer_inbound_nat_rules_ids.#:     \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000207,
+      "  ip_configuration.3586865974.name:                                      \"\" =\u003e \"ipconfig1\"\r\n"
+    ],
+    [
+      0.000249,
+      "  ip_configuration.3586865974.private_ip_address:                        \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000207,
+      "  ip_configuration.3586865974.private_ip_address_allocation:             \"\" =\u003e \"dynamic\"\r\n"
+    ],
+    [
+      0.000466,
+      "  ip_configuration.3586865974.public_ip_address_id:                      \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\"\r\n"
+    ],
+    [
+      0.000440,
+      "  ip_configuration.3586865974.subnet_id:                                 \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1\"\r\n"
+    ],
+    [
+      0.000202,
+      "  location:                                                              \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000203,
+      "  mac_address:                                                           \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000210,
+      "  name:                                                                  \"\" =\u003e \"developmentNetworkInterface\"\r\n"
+    ],
+    [
+      0.000182,
+      "  network_security_group_id:                                             \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000185,
+      "  private_ip_address:                                                    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000202,
+      "  resource_group_name:                                                   \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000176,
+      "  tags.%:                                                                \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000423,
+      "  tags.environment:                                                      \"\" =\u003e \"Development\"\r\n"
+    ],
+    [
+      0.000165,
+      "  virtual_machine_id:                                                    \"\" =\u003e \"\u003ccomputed\u003e\"\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still creating... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000193,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still creating... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (1m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Still creating... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000226,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still creating... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.593552,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.062378,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.netint2: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000356,
+      "  applied_dns_servers.#:                                                 \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000174,
+      "  dns_servers.#:                                                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000206,
+      "  enable_ip_forwarding:                                                  \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.000250,
+      "  internal_dns_name_label:                                               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000253,
+      "  internal_fqdn:                                                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000252,
+      "  ip_configuration.#:                                                    \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000354,
+      "  ip_configuration.2769501603.load_balancer_backend_address_pools_ids.#: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000220,
+      "  ip_configuration.2769501603.load_balancer_inbound_nat_rules_ids.#:     \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000288,
+      "  ip_configuration.2769501603.name:                                      \"\" =\u003e \"ipconfig1\"\r\n"
+    ],
+    [
+      0.000239,
+      "  ip_configuration.2769501603.private_ip_address:                        \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000106,
+      "  ip_configuration.2769501603.private_ip_address_allocation:             \"\" =\u003e \"dynamic\"\r\n"
+    ],
+    [
+      0.000588,
+      "  ip_configuration.2769501603.public_ip_address_id:                      \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/devPublicIP2\"\r\n"
+    ],
+    [
+      0.000514,
+      "  ip_configuration.2769501603.subnet_id:                                 \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2\"\r\n"
+    ],
+    [
+      0.000216,
+      "  location:                                                              \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000251,
+      "  mac_address:                                                           \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000479,
+      "  name:                                                                  \"\" =\u003e \"devNetworkInterface2\"\r\n"
+    ],
+    [
+      0.000170,
+      "  network_security_group_id:                                             \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000233,
+      "  private_ip_address:                                                    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000219,
+      "  resource_group_name:                                                   \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000184,
+      "  tags.%:                                                                \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000182,
+      "  tags.type:                                                             \"\" =\u003e \"Backup\"\r\n"
+    ],
+    [
+      0.000238,
+      "  virtual_machine_id:                                                    \"\" =\u003e \"\u003ccomputed\u003e\"\u001b[0m\r\n"
+    ],
+    [
+      0.310583,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.netint2: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (1m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still creating... (50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (1m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Still creating... (1m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.895308,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (1m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (1m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (1m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (2m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (2m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (2m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (2m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (2m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (2m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (3m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (3m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (3m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (3m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (3m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (3m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (4m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (4m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (4m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (4m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (4m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (4m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (5m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (5m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (5m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (5m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (5m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (5m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (6m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (6m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (6m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (6m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (6m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (6m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (7m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (7m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (7m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (7m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (7m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (7m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (8m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (8m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (8m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (8m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Still creating... (8m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      0.149125,
+      "\r\n"
+    ],
+    [
+      0.800596,
+      "^C"
+    ],
+    [
+      0.000440,
+      "Interrupt received. Gracefully shutting down...\r\n"
+    ],
+    [
+      0.592943,
+      "\u001b[31mError applying plan:\r\n\r\n"
+    ],
+    [
+      0.000012,
+      "2 error(s) occurred:\r\n"
+    ],
+    [
+      0.000004,
+      "\r\n"
+    ],
+    [
+      0.004761,
+      "* fixazurerm_network_interface.network_interface: network.InterfacesClient#CreateOrUpdate: Failure responding to request: StatusCode=429 -- Original Error: autorest/azure: Service returned an error. Status=429 Code=\"RetryableError\" Message=\"A retryable error occured.\" Details=[{\"code\":\"ReferencedResourceNotProvisioned\",\"message\":\"Cannot proceed with operation because resource /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1 used by resource /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface is not in Succeeded state. Resource is in Updating state and the last operation that updated/is updating the resource is PutSubnetOperation.\"}]\r\n* Resource 'fixazurerm_storage_account.development' does not have attribute 'primary_blob_endpoint' for variable 'fixazurerm_storage_account.development.primary_blob_endpoi"
+    ],
+    [
+      0.000654,
+      "nt'\r\n\r\n"
+    ],
+    [
+      0.000230,
+      "Terraform does not automatically rollback in the face of errors.\r\nInstead, your Terraform state file has been partially updated with\r\n"
+    ],
+    [
+      0.000010,
+      "any resources that successfully completed. Please address the error\r\n"
+    ],
+    [
+      0.000139,
+      "above and apply again to incrementally change your infrastructure.\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.106738,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "terraform apply"
+    ],
+    [
+      0.456445,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development)\u001b[0m\r\n"
+    ],
+    [
+      0.347304,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Storage/storageAccounts/fixazurermdevsa)\u001b[0m\r\n"
+    ],
+    [
+      0.000392,
+      "\u001b[0m\u001b[1mfixazurerm_availability_set.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/availabilitySets/devavailabilityset)\u001b[0m\r\n"
+    ],
+    [
+      0.000503,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork)\u001b[0m\r\n"
+    ],
+    [
+      0.000446,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP)\u001b[0m\r\n"
+    ],
+    [
+      0.000568,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/devPublicIP2)\u001b[0m\r\n"
+    ],
+    [
+      0.361199,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3)\u001b[0m\r\n"
+    ],
+    [
+      0.000595,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1)\u001b[0m\r\n"
+    ],
+    [
+      0.000562,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2)\u001b[0m\r\n"
+    ],
+    [
+      0.074072,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.netint2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/devNetworkInterface2)\u001b[0m\r\n"
+    ],
+    [
+      0.473956,
+      "\u001b[31mError refreshing state: 1 error(s) occurred:\r\n\r\n"
+    ],
+    [
+      0.000518,
+      "* fixazurerm_storage_account.development: storage.AccountsClient#ListKeys: Failure responding to request: StatusCode=409 -- Original Error: autorest/azure: Service returned an error. Status=409 Code=\"StorageAccountIsNotProvisioned\" Message=\"The storage account provisioning state must be 'Succeeded' before executing the operation.\"\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.012990,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "terraform apply"
+    ],
+    [
+      1.000000,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development)\u001b[0m\r\n"
+    ],
+    [
+      0.727139,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP)\u001b[0m\r\n"
+    ],
+    [
+      0.033491,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Storage/storageAccounts/fixazurermdevsa)\u001b[0m\r\n"
+    ],
+    [
+      0.000254,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/devPublicIP2)\u001b[0m\r\n"
+    ],
+    [
+      0.000995,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork)\u001b[0m\r\n"
+    ],
+    [
+      0.000146,
+      "\u001b[0m\u001b[1mfixazurerm_availability_set.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/availabilitySets/devavailabilityset)\u001b[0m\r\n"
+    ],
+    [
+      0.988268,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3)\u001b[0m\r\n"
+    ],
+    [
+      0.000595,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1)\u001b[0m\r\n"
+    ],
+    [
+      0.000482,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2)\u001b[0m\r\n"
+    ],
+    [
+      0.084864,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.netint2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/devNetworkInterface2)\u001b[0m\r\n"
+    ],
+    [
+      0.564698,
+      "\u001b[31mError refreshing state: 1 error(s) occurred:\r\n\r\n"
+    ],
+    [
+      0.001667,
+      "* fixazurerm_storage_account.development: storage.AccountsClient#ListKeys: Failure responding to request: StatusCode=409 -- Original Error: autorest/azure: Service returned an error. Status=409 Code=\"StorageAccountIsNotProvisioned\" Message=\"The storage account provisioning state must be 'Succeeded' before executing the operation.\"\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.082580,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "terraform apply"
+    ],
+    [
+      0.470996,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_resource_group.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development)\u001b[0m\r\n"
+    ],
+    [
+      0.190072,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_network.network: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork)\u001b[0m\r\n"
+    ],
+    [
+      0.000305,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/devPublicIP2)\u001b[0m\r\n"
+    ],
+    [
+      0.000429,
+      "\u001b[0m\u001b[1mfixazurerm_availability_set.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/availabilitySets/devavailabilityset)\u001b[0m\r\n"
+    ],
+    [
+      0.000496,
+      "\u001b[0m\u001b[1mfixazurerm_storage_account.development: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Storage/storageAccounts/fixazurermdevsa)\u001b[0m\r\n"
+    ],
+    [
+      0.000362,
+      "\u001b[0m\u001b[1mfixazurerm_public_ip.pubip: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP)\u001b[0m\r\n"
+    ],
+    [
+      0.458046,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet1: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1)\u001b[0m\r\n"
+    ],
+    [
+      0.000139,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet3: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3)\u001b[0m\r\n"
+    ],
+    [
+      0.000724,
+      "\u001b[0m\u001b[1mfixazurerm_subnet.subnet2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2)\u001b[0m\r\n"
+    ],
+    [
+      0.086122,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.netint2: Refreshing state... (ID: /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/devNetworkInterface2)\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_container.development: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000350,
+      "  container_access_type: \"\" =\u003e \"private\"\r\n  name:                  \"\" =\u003e \"vhds\"\r\n"
+    ],
+    [
+      0.000262,
+      "  properties.%:          \"\" =\u003e \"\u003ccomputed\u003e\"\r\n  resource_group_name:   \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000182,
+      "  storage_account_name:  \"\" =\u003e \"fixazurermdevsa\"\u001b[0m\r\n"
+    ],
+    [
+      0.000289,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000265,
+      "  applied_dns_servers.#:                                                 \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000262,
+      "  dns_servers.#:                                                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000265,
+      "  enable_ip_forwarding:                                                  \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.000247,
+      "  internal_dns_name_label:                                               \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000251,
+      "  internal_fqdn:                                                         \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000325,
+      "  ip_configuration.#:                                                    \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000268,
+      "  ip_configuration.3586865974.load_balancer_backend_address_pools_ids.#: \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000244,
+      "  ip_configuration.3586865974.load_balancer_inbound_nat_rules_ids.#:     \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000263,
+      "  ip_configuration.3586865974.name:                                      \"\" =\u003e \"ipconfig1\"\r\n"
+    ],
+    [
+      0.000227,
+      "  ip_configuration.3586865974.private_ip_address:                        \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000244,
+      "  ip_configuration.3586865974.private_ip_address_allocation:             \"\" =\u003e \"dynamic\"\r\n"
+    ],
+    [
+      0.000673,
+      "  ip_configuration.3586865974.public_ip_address_id:                      \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\"\r\n"
+    ],
+    [
+      0.000504,
+      "  ip_configuration.3586865974.subnet_id:                                 \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1\"\r\n"
+    ],
+    [
+      0.000212,
+      "  location:                                                              \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000197,
+      "  mac_address:                                                           \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000236,
+      "  name:                                                                  \"\" =\u003e \"developmentNetworkInterface\"\r\n"
+    ],
+    [
+      0.000238,
+      "  network_security_group_id:                                             \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000230,
+      "  private_ip_address:                                                    \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000215,
+      "  resource_group_name:                                                   \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000226,
+      "  tags.%:                                                                \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000179,
+      "  tags.environment:                                                      \"\" =\u003e \"Development\"\r\n"
+    ],
+    [
+      0.000194,
+      "  virtual_machine_id:                                                    \"\" =\u003e \"\u003ccomputed\u003e\"\u001b[0m\r\n"
+    ],
+    [
+      0.523629,
+      "\u001b[0m\u001b[1mfixazurerm_network_interface.network_interface: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_storage_container.development: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.047551,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000173,
+      "  availability_set_id:                                                \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000189,
+      "  delete_data_disks_on_termination:                                   \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.002808,
+      "  delete_os_disk_on_termination:                                      \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.001066,
+      "  license_type:                                                       \"\" =\u003e \"\u003ccomputed\u003e\"\r\n  location:                                                           \"\" =\u003e \"southeastasia\"\r\n  name:                                                               \"\" =\u003e \"acctvm\"\r\n"
+    ],
+    [
+      0.000218,
+      "  network_interface_ids.#:                                            \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000519,
+      "  network_interface_ids.3442204790:                                   \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface\"\r\n"
+    ],
+    [
+      0.000190,
+      "  os_profile.#:                                                       \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000223,
+      "  os_profile.1173764063.admin_password:                               \"\" =\u003e \"Password1234!\"\r\n"
+    ],
+    [
+      0.000341,
+      "  os_profile.1173764063.admin_username:                               \"\" =\u003e \"testadmin\"\r\n"
+    ],
+    [
+      0.000041,
+      "  os_profile.1173764063.computer_name:                                \"\" =\u003e \"hostname\"\r\n"
+    ],
+    [
+      0.000198,
+      "  os_profile.1173764063.custom_data:                                  \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000161,
+      "  os_profile_linux_config.#:                                          \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000159,
+      "  os_profile_linux_config.2972667452.disable_password_authentication: \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.000186,
+      "  os_profile_linux_config.2972667452.ssh_keys.#:                      \"\" =\u003e \"0\"\r\n"
+    ],
+    [
+      0.000183,
+      "  plan.#:                                                             \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000188,
+      "  resource_group_name:                                                \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000211,
+      "  storage_image_reference.#:                                          \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000190,
+      "  storage_image_reference.2115656022.offer:                           \"\" =\u003e \"UbuntuServer\"\r\n"
+    ],
+    [
+      0.000180,
+      "  storage_image_reference.2115656022.publisher:                       \"\" =\u003e \"Canonical\"\r\n"
+    ],
+    [
+      0.000219,
+      "  storage_image_reference.2115656022.sku:                             \"\" =\u003e \"16.04.0-LTS\"\r\n"
+    ],
+    [
+      0.000214,
+      "  storage_image_reference.2115656022.version:                         \"\" =\u003e \"latest\"\r\n"
+    ],
+    [
+      0.000175,
+      "  storage_os_disk.#:                                                  \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000191,
+      "  storage_os_disk.3807938709.caching:                                 \"\" =\u003e \"ReadWrite\"\r\n"
+    ],
+    [
+      0.000206,
+      "  storage_os_disk.3807938709.create_option:                           \"\" =\u003e \"FromImage\"\r\n"
+    ],
+    [
+      0.000161,
+      "  storage_os_disk.3807938709.disk_size_gb:                            \"\" =\u003e \"\"\r\n"
+    ],
+    [
+      0.000166,
+      "  storage_os_disk.3807938709.image_uri:                               \"\" =\u003e \"\"\r\n"
+    ],
+    [
+      0.000233,
+      "  storage_os_disk.3807938709.name:                                    \"\" =\u003e \"myosdisk1\"\r\n"
+    ],
+    [
+      0.000197,
+      "  storage_os_disk.3807938709.os_type:                                 \"\" =\u003e \"\"\r\n"
+    ],
+    [
+      0.000298,
+      "  storage_os_disk.3807938709.vhd_uri:                                 \"\" =\u003e \"https://fixazurermdevsa.blob.core.windows.net/vhds/myosdisk1.vhd\"\r\n"
+    ],
+    [
+      0.000376,
+      "  tags.%:                                                             \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000139,
+      "  tags.environment:                                                   \"\" =\u003e \"Development\"\r\n"
+    ],
+    [
+      0.000208,
+      "  vm_size:                                                            \"\" =\u003e \"Standard_A0\"\u001b[0m\r\n"
+    ],
+    [
+      0.000116,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Creating...\u001b[21m\r\n"
+    ],
+    [
+      0.000360,
+      "  availability_set_id:                                              \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourcegroups/development/providers/microsoft.compute/availabilitysets/devavailabilityset\"\r\n"
+    ],
+    [
+      0.000147,
+      "  delete_data_disks_on_termination:                                 \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.000161,
+      "  delete_os_disk_on_termination:                                    \"\" =\u003e \"false\"\r\n"
+    ],
+    [
+      0.000174,
+      "  license_type:                                                     \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000155,
+      "  location:                                                         \"\" =\u003e \"southeastasia\"\r\n"
+    ],
+    [
+      0.000192,
+      "  name:                                                             \"\" =\u003e \"backupvm\"\r\n"
+    ],
+    [
+      0.000172,
+      "  network_interface_ids.#:                                          \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000426,
+      "  network_interface_ids.2678838312:                                 \"\" =\u003e \"/subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/devNetworkInterface2\"\r\n"
+    ],
+    [
+      0.000162,
+      "  os_profile.#:                                                     \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000196,
+      "  os_profile.2650495362.admin_password:                             \"\" =\u003e \"passw0rd\"\r\n"
+    ],
+    [
+      0.000181,
+      "  os_profile.2650495362.admin_username:                             \"\" =\u003e \"leowmjw\"\r\n"
+    ],
+    [
+      0.000194,
+      "  os_profile.2650495362.computer_name:                              \"\" =\u003e \"backuphost\"\r\n"
+    ],
+    [
+      0.000337,
+      "  os_profile.2650495362.custom_data:                                \"\" =\u003e \"IyEvYmluL2Jhc2gKIwoKZWNobyAiTE9DSy1DTE9VRF9JTklUIiA+L3RtcC9teWxvY2sKYXB0LWdldCB1cGRhdGUgJiYgYXB0LWdldCBpbnN0YWxsIC15IHBocC1mcG0K\"\r\n"
+    ],
+    [
+      0.000148,
+      "  os_profile_linux_config.#:                                        \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000170,
+      "  os_profile_linux_config.69840937.disable_password_authentication: \"\" =\u003e \"true\"\r\n"
+    ],
+    [
+      0.000180,
+      "  os_profile_linux_config.69840937.ssh_keys.#:                      \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000796,
+      "  os_profile_linux_config.69840937.ssh_keys.0.key_data:             \"\" =\u003e \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTCMfzrR3xxBwNaIbAv8JTgeiqlX3UZj4hzKsWWVcJ4cyCvqT0C04uhM3echcZfHznZcMtdVXJyr+zYWZGkOGtcUJ1w1H1Xm6aCbNjQuWnuDp+AnzEz7M4tnsGlvotj+QjQBnbOg2g8QqbmhDtv9izmJTNYsXT/pfFpYHcunFJzo6C20o4fQTRoZrdkLhwbRwZ2gW2GFT30a7v3C/9b/Yi5Vk7ECGHf7cD2RmDipb7vwU32qAAHDrFRsarcr7mf6nRq/IZo9lGYr0zyKXabaEI20i+GitFm+RHfWwQUaY7iIBz+PhtAwEtYeHGxUlwdgRcQbC1RONCODwSVh01E+HD leow@syamhasan-2.local\\n\"\r\n"
+    ],
+    [
+      0.000217,
+      "  os_profile_linux_config.69840937.ssh_keys.0.path:                 \"\" =\u003e \"/home/leowmjw/.ssh/authorized_keys\"\r\n"
+    ],
+    [
+      0.000210,
+      "  plan.#:                                                           \"\" =\u003e \"\u003ccomputed\u003e\"\r\n"
+    ],
+    [
+      0.000170,
+      "  resource_group_name:                                              \"\" =\u003e \"development\"\r\n"
+    ],
+    [
+      0.000184,
+      "  storage_image_reference.#:                                        \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000344,
+      "  storage_image_reference.2115656022.offer:                         \"\" =\u003e \"UbuntuServer\"\r\n"
+    ],
+    [
+      0.000133,
+      "  storage_image_reference.2115656022.publisher:                     \"\" =\u003e \"Canonical\"\r\n"
+    ],
+    [
+      0.000247,
+      "  storage_image_reference.2115656022.sku:                           \"\" =\u003e \"16.04.0-LTS\"\r\n"
+    ],
+    [
+      0.000174,
+      "  storage_image_reference.2115656022.version:                       \"\" =\u003e \"latest\"\r\n"
+    ],
+    [
+      0.000171,
+      "  storage_os_disk.#:                                                \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000178,
+      "  storage_os_disk.685756562.caching:                                \"\" =\u003e \"ReadWrite\"\r\n"
+    ],
+    [
+      0.000195,
+      "  storage_os_disk.685756562.create_option:                          \"\" =\u003e \"FromImage\"\r\n"
+    ],
+    [
+      0.000169,
+      "  storage_os_disk.685756562.disk_size_gb:                           \"\" =\u003e \"\"\r\n"
+    ],
+    [
+      0.000160,
+      "  storage_os_disk.685756562.image_uri:                              \"\" =\u003e \"\"\r\n"
+    ],
+    [
+      0.000160,
+      "  storage_os_disk.685756562.name:                                   \"\" =\u003e \"myosdisk2\"\r\n"
+    ],
+    [
+      0.000173,
+      "  storage_os_disk.685756562.os_type:                                \"\" =\u003e \"\"\r\n"
+    ],
+    [
+      0.000293,
+      "  storage_os_disk.685756562.vhd_uri:                                \"\" =\u003e \"https://fixazurermdevsa.blob.core.windows.net/vhds/myosdisk2.vhd\"\r\n"
+    ],
+    [
+      0.000156,
+      "  tags.%:                                                           \"\" =\u003e \"1\"\r\n"
+    ],
+    [
+      0.000162,
+      "  tags.type:                                                        \"\" =\u003e \"Backup\"\r\n"
+    ],
+    [
+      0.000263,
+      "  vm_size:                                                          \"\" =\u003e \"Standard_A0\"\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.006248,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.006439,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.005692,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.005010,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.004866,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (1m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.004683,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (1m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (1m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.004232,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (1m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (1m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.003465,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (1m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (1m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.002386,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (1m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (1m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.001521,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (1m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (1m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000396,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (1m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (2m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.000301,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Still creating... (2m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.dev2: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (2m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (2m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (2m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (2m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (2m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (3m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (3m10s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (3m20s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (3m30s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (3m40s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (3m50s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Still creating... (4m0s elapsed)\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0m\u001b[1mfixazurerm_virtual_machine.development: Creation complete\u001b[21m\u001b[0m\r\n"
+    ],
+    [
+      0.661911,
+      "\u001b[0m\u001b[1m\u001b[32m\r\n"
+    ],
+    [
+      0.000009,
+      "Apply complete! Resources: 4 added, 0 changed, 0 destroyed.\u001b[0m\r\n"
+    ],
+    [
+      0.019685,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.001112,
+      "The state of your infrastructure has been saved to the path\r\nbelow. This state is required to modify and destroy your\r\ninfrastructure, so keep it safe. To inspect the complete state\r\nuse the `terraform show` command.\r\n\r\nState path: terraform.tfstate\u001b[0m\r\n\u001b[0m\u001b[1m\u001b[32m\r\nOutputs:\r\n\r\npublic_fqdn = mydevelopment.southeastasia.cloudapp.azure.com\r\npublic_ip_adress = 52.187.45.109\r\npublic_ip_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\nregion = southeastasia\u001b[0m\r\n"
+    ],
+    [
+      0.502266,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "e"
+    ],
+    [
+      0.207214,
+      "x"
+    ],
+    [
+      0.253938,
+      "i"
+    ],
+    [
+      1.000000,
+      "\u0008\u0008\u0008terraform apply"
+    ],
+    [
+      0.732669,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.192334,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.327743,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.202619,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.173677,
+      "\u0008\u001b[K"
+    ],
+    [
+      0.511709,
+      "s"
+    ],
+    [
+      0.192754,
+      "h"
+    ],
+    [
+      0.095278,
+      "o"
+    ],
+    [
+      0.119926,
+      "w"
+    ],
+    [
+      0.304125,
+      "\r\n"
+    ],
+    [
+      0.320851,
+      "\r\n"
+    ],
+    [
+      0.167340,
+      "\r\n"
+    ],
+    [
+      0.159630,
+      "\r\n"
+    ],
+    [
+      0.180299,
+      "\r\n"
+    ],
+    [
+      0.155822,
+      "\r\n"
+    ],
+    [
+      1.000000,
+      "\u001b[0mfixazurerm_availability_set.development:\r\n"
+    ],
+    [
+      0.000169,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/availabilitySets/devavailabilityset\r\n"
+    ],
+    [
+      0.000067,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000100,
+      "  name = devavailabilityset\r\n"
+    ],
+    [
+      0.000068,
+      "  platform_fault_domain_count = 3\r\n"
+    ],
+    [
+      0.000075,
+      "  platform_update_domain_count = 5\r\n"
+    ],
+    [
+      0.000100,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000039,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000102,
+      "  tags.environment = Development\r\n"
+    ],
+    [
+      0.000070,
+      "fixazurerm_network_interface.netint2:\r\n"
+    ],
+    [
+      0.000369,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/devNetworkInterface2\r\n"
+    ],
+    [
+      0.000080,
+      "  applied_dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000058,
+      "  dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000111,
+      "  enable_ip_forwarding = false\r\n"
+    ],
+    [
+      0.000030,
+      "  ip_configuration.# = 1\r\n"
+    ],
+    [
+      0.000197,
+      "  ip_configuration.2769501603.load_balancer_backend_address_pools_ids.# = 0\r\n"
+    ],
+    [
+      0.000163,
+      "  ip_configuration.2769501603.load_balancer_inbound_nat_rules_ids.# = 0\r\n"
+    ],
+    [
+      0.000132,
+      "  ip_configuration.2769501603.name = ipconfig1\r\n"
+    ],
+    [
+      0.000129,
+      "  ip_configuration.2769501603.private_ip_address = \r\n"
+    ],
+    [
+      0.000203,
+      "  ip_configuration.2769501603.private_ip_address_allocation = dynamic\r\n"
+    ],
+    [
+      0.000540,
+      "  ip_configuration.2769501603.public_ip_address_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/devPublicIP2\r\n"
+    ],
+    [
+      0.000435,
+      "  ip_configuration.2769501603.subnet_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2\r\n"
+    ],
+    [
+      0.000082,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000063,
+      "  name = devNetworkInterface2\r\n"
+    ],
+    [
+      0.000109,
+      "  private_ip_address = 10.0.2.4\r\n"
+    ],
+    [
+      0.000091,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000065,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000055,
+      "  tags.type = Backup\r\n"
+    ],
+    [
+      0.000155,
+      "fixazurerm_network_interface.network_interface:\r\n"
+    ],
+    [
+      0.000326,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface\r\n"
+    ],
+    [
+      0.000057,
+      "  applied_dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000067,
+      "  dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000095,
+      "  enable_ip_forwarding = false\r\n"
+    ],
+    [
+      0.000052,
+      "  ip_configuration.# = 1\r\n"
+    ],
+    [
+      0.000196,
+      "  ip_configuration.3586865974.load_balancer_backend_address_pools_ids.# = 0\r\n"
+    ],
+    [
+      0.000191,
+      "  ip_configuration.3586865974.load_balancer_inbound_nat_rules_ids.# = 0\r\n"
+    ],
+    [
+      0.000114,
+      "  ip_configuration.3586865974.name = ipconfig1\r\n"
+    ],
+    [
+      0.000115,
+      "  ip_configuration.3586865974.private_ip_address = \r\n"
+    ],
+    [
+      0.000194,
+      "  ip_configuration.3586865974.private_ip_address_allocation = dynamic\r\n"
+    ],
+    [
+      0.000972,
+      "  ip_configuration.3586865974.public_ip_address_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000406,
+      "  ip_configuration.3586865974.subnet_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1\r\n"
+    ],
+    [
+      0.000076,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000112,
+      "  name = developmentNetworkInterface\r\n"
+    ],
+    [
+      0.000080,
+      "  private_ip_address = 10.0.1.4\r\n"
+    ],
+    [
+      0.000108,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000039,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000100,
+      "  tags.environment = Development\r\n"
+    ],
+    [
+      0.000089,
+      "fixazurerm_public_ip.pubip:\r\n"
+    ],
+    [
+      0.000291,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000076,
+      "  domain_name_label = mydevelopment\r\n"
+    ],
+    [
+      0.000153,
+      "  fqdn = mydevelopment.southeastasia.cloudapp.azure.com\r\n"
+    ],
+    [
+      0.000085,
+      "  ip_address = 52.187.45.109\r\n"
+    ],
+    [
+      0.000140,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000075,
+      "  name = developmentPublicIP\r\n"
+    ],
+    [
+      0.000093,
+      "  public_ip_address_allocation = static\r\n"
+    ],
+    [
+      0.000084,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000087,
+      "  tags.% = 0\r\n"
+    ],
+    [
+      0.000197,
+      "fixazurerm_public_ip.pubip2:\r\n"
+    ],
+    [
+      0.000289,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/devPublicIP2\r\n"
+    ],
+    [
+      0.000061,
+      "  domain_name_label = mydev2\r\n"
+    ],
+    [
+      0.000114,
+      "  fqdn = mydev2.southeastasia.cloudapp.azure.com\r\n"
+    ],
+    [
+      0.000086,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000083,
+      "  name = devPublicIP2\r\n"
+    ],
+    [
+      0.000105,
+      "  public_ip_address_allocation = dynamic\r\n"
+    ],
+    [
+      0.000127,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000043,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000060,
+      "  tags.type = Backup\r\n"
+    ],
+    [
+      0.000108,
+      "fixazurerm_resource_group.development:\r\n"
+    ],
+    [
+      0.000196,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development\r\n"
+    ],
+    [
+      0.000062,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000068,
+      "  name = development\r\n"
+    ],
+    [
+      0.000038,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000075,
+      "  tags.environment = Development\r\n"
+    ],
+    [
+      0.000102,
+      "fixazurerm_storage_account.development:\r\n"
+    ],
+    [
+      0.000361,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Storage/storageAccounts/fixazurermdevsa\r\n"
+    ],
+    [
+      0.000052,
+      "  account_kind = Storage\r\n"
+    ],
+    [
+      0.000085,
+      "  account_type = Standard_LRS\r\n"
+    ],
+    [
+      0.000139,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000077,
+      "  name = fixazurermdevsa\r\n"
+    ],
+    [
+      0.002407,
+      "  primary_access_key = XR36WV2fm/SZkX1YQ8QOIJjEV3HWiuidzJ7aMw3GH+8VOvI35DQuMlYrolwWM+9e67ZDFP12sf0gEHs3L5EIoA==\r\n  primary_blob_endpoint = https://fixazurermdevsa.blob.core.windows.net/\r\n  primary_file_endpoint = https://fixazurermdevsa.file.core.windows.net/\r\n  primary_location = southeastasia\r\n  primary_queue_endpoint = https://fixazurermdevsa.queue.core.windows.net/\r\n  primary_table_endpoint = https://fixazurermdevsa.table.core.windows.net/\r\n  resource_group_name = development\r\n  secondary_access_key = 5/C9K4vPtRkCMflHP/WNdxrG/+os6OPqnV8evyEOAhJHCAcauh6+HM2gIPi+g75KopIq2DZRS6q0rylvexPk5g==\r\n  secondary_location = \r\n  tags.% = 1\r\n  tags.environment = Development\r\nfixazurerm_storage_container.development:\r\n  id = vhds\r\n  container_access_type = private\r\n  name = vhds\r\n  properties.% = 4\r\n  properties.last_modified = Wed, 02 Nov 2016 01:38:10 GMT\r\n  properties.lease_duration = \r\n"
+    ],
+    [
+      0.013667,
+      "  properties.lease_state = available\r\n"
+    ],
+    [
+      0.000244,
+      "  properties.lease_status = unlocked\r\n"
+    ],
+    [
+      0.000189,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000085,
+      "  storage_account_name = fixazurermdevsa\r\n"
+    ],
+    [
+      0.000167,
+      "fixazurerm_subnet.subnet1:\r\n"
+    ],
+    [
+      0.000170,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet1\r\n"
+    ],
+    [
+      0.000151,
+      "  address_prefix = 10.0.1.0/24\r\n"
+    ],
+    [
+      0.000022,
+      "  ip_configurations.# = 0\r\n"
+    ],
+    [
+      0.000090,
+      "  name = subnet1\r\n"
+    ],
+    [
+      0.000107,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000121,
+      "  virtual_network_name = developmentNetwork\r\n"
+    ],
+    [
+      0.000111,
+      "fixazurerm_subnet.subnet2:\r\n"
+    ],
+    [
+      0.000340,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet2\r\n"
+    ],
+    [
+      0.000114,
+      "  address_prefix = 10.0.2.0/24\r\n"
+    ],
+    [
+      0.000044,
+      "  ip_configurations.# = 1\r\n"
+    ],
+    [
+      0.000408,
+      "  ip_configurations.3393566719 = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/devNetworkInterface2/ipConfigurations/ipconfig1\r\n"
+    ],
+    [
+      0.000006,
+      "  name = subnet2\r\n"
+    ],
+    [
+      0.000222,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000170,
+      "  virtual_network_name = developmentNetwork\r\nfixazurerm_subnet.subnet3:\r\n"
+    ],
+    [
+      0.000453,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork/subnets/subnet3\r\n"
+    ],
+    [
+      0.000009,
+      "  address_prefix = 10.0.3.0/24\r\n"
+    ],
+    [
+      0.000122,
+      "  ip_configurations.# = 0\r\n  name = subnet3\r\n"
+    ],
+    [
+      0.000076,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000093,
+      "  virtual_network_name = developmentNetwork\r\n"
+    ],
+    [
+      0.000098,
+      "fixazurerm_virtual_machine.dev2:\r\n"
+    ],
+    [
+      0.000362,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/virtualMachines/backupvm\r\n"
+    ],
+    [
+      0.000322,
+      "  availability_set_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourcegroups/development/providers/microsoft.compute/availabilitysets/devavailabilityset\r\n"
+    ],
+    [
+      0.000116,
+      "  delete_data_disks_on_termination = false\r\n"
+    ],
+    [
+      0.000129,
+      "  delete_os_disk_on_termination = false\r\n"
+    ],
+    [
+      0.000334,
+      "  location = southeastasia\r\n  name = backupvm\r\n  network_interface_ids.# = 1\r\n"
+    ],
+    [
+      0.000364,
+      "  network_interface_ids.2678838312 = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/devNetworkInterface2\r\n"
+    ],
+    [
+      0.000041,
+      "  os_profile.# = 1\r\n"
+    ],
+    [
+      0.000112,
+      "  os_profile.2650495362.admin_password = \r\n"
+    ],
+    [
+      0.000200,
+      "  os_profile.2650495362.admin_username = leowmjw\r\n"
+    ],
+    [
+      0.000164,
+      "  os_profile.2650495362.computer_name = backuphost\r\n"
+    ],
+    [
+      0.000305,
+      "  os_profile.2650495362.custom_data = IyEvYmluL2Jhc2gKIwoKZWNobyAiTE9DSy1DTE9VRF9JTklUIiA+L3RtcC9teWxvY2sKYXB0LWdldCB1cGRhdGUgJiYgYXB0LWdldCBpbnN0YWxsIC15IHBocC1mcG0K\r\n"
+    ],
+    [
+      0.000076,
+      "  os_profile_linux_config.# = 1\r\n"
+    ],
+    [
+      0.000199,
+      "  os_profile_linux_config.69840937.disable_password_authentication = true\r\n"
+    ],
+    [
+      0.000121,
+      "  os_profile_linux_config.69840937.ssh_keys.# = 2\r\n"
+    ],
+    [
+      0.000779,
+      "  os_profile_linux_config.69840937.ssh_keys.1.key_data = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTCMfzrR3xxBwNaIbAv8JTgeiqlX3UZj4hzKsWWVcJ4cyCvqT0C04uhM3echcZfHznZcMtdVXJyr+zYWZGkOGtcUJ1w1H1Xm6aCbNjQuWnuDp+AnzEz7M4tnsGlvotj+QjQBnbOg2g8QqbmhDtv9izmJTNYsXT/pfFpYHcunFJzo6C20o4fQTRoZrdkLhwbRwZ2gW2GFT30a7v3C/9b/Yi5Vk7ECGHf7cD2RmDipb7vwU32qAAHDrFRsarcr7mf6nRq/IZo9lGYr0zyKXabaEI20i+GitFm+RHfWwQUaY7iIBz+PhtAwEtYeHGxUlwdgRcQbC1RONCODwSVh01E+HD leow@syamhasan-2.local\r\n"
+    ],
+    [
+      0.000024,
+      "\r\n"
+    ],
+    [
+      0.000166,
+      "  os_profile_linux_config.69840937.ssh_keys.1.path = /home/leowmjw/.ssh/authorized_keys\r\n"
+    ],
+    [
+      0.000075,
+      "  os_profile_secrets.# = 0\r\n"
+    ],
+    [
+      0.000040,
+      "  plan.# = 0\r\n"
+    ],
+    [
+      0.000093,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000065,
+      "  storage_data_disk.# = 0\r\n"
+    ],
+    [
+      0.000072,
+      "  storage_image_reference.# = 1\r\n"
+    ],
+    [
+      0.000151,
+      "  storage_image_reference.2115656022.offer = UbuntuServer\r\n"
+    ],
+    [
+      0.000123,
+      "  storage_image_reference.2115656022.publisher = Canonical\r\n"
+    ],
+    [
+      0.000139,
+      "  storage_image_reference.2115656022.sku = 16.04.0-LTS\r\n"
+    ],
+    [
+      0.000124,
+      "  storage_image_reference.2115656022.version = latest\r\n"
+    ],
+    [
+      0.000075,
+      "  storage_os_disk.# = 1\r\n"
+    ],
+    [
+      0.000118,
+      "  storage_os_disk.685756562.caching = ReadWrite\r\n"
+    ],
+    [
+      0.000135,
+      "  storage_os_disk.685756562.create_option = FromImage\r\n"
+    ],
+    [
+      0.000121,
+      "  storage_os_disk.685756562.disk_size_gb = 0\r\n"
+    ],
+    [
+      0.000086,
+      "  storage_os_disk.685756562.image_uri = \r\n"
+    ],
+    [
+      0.000141,
+      "  storage_os_disk.685756562.name = myosdisk2\r\n"
+    ],
+    [
+      0.000081,
+      "  storage_os_disk.685756562.os_type = \r\n"
+    ],
+    [
+      0.000223,
+      "  storage_os_disk.685756562.vhd_uri = https://fixazurermdevsa.blob.core.windows.net/vhds/myosdisk2.vhd\r\n"
+    ],
+    [
+      0.000042,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000070,
+      "  tags.type = Backup\r\n"
+    ],
+    [
+      0.000071,
+      "  vm_size = Standard_A0\r\n"
+    ],
+    [
+      0.000096,
+      "fixazurerm_virtual_machine.development:\r\n"
+    ],
+    [
+      0.002450,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Compute/virtualMachines/acctvm\r\n"
+    ],
+    [
+      0.000017,
+      "  delete_data_disks_on_termination = false\r\n  delete_os_disk_on_termination = false\r\n  location = southeastasia\r\n  name = acctvm\r\n  network_interface_ids.# = 1\r\n  network_interface_ids.3442204790 = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/networkInterfaces/developmentNetworkInterface\r\n  os_profile.# = 1\r\n  os_profile.1173764063.admin_password = \r\n  os_profile.1173764063.admin_username = testadmin\r\n  os_profile.1173764063.computer_name = hostname\r\n  os_profile.1173764063.custom_data = \r\n  os_profile_linux_config.# = 1\r\n  os_profile_linux_config.2972667452.disable_password_authentication = false\r\n  os_profile_linux_config.2972667452.ssh_keys.# = 0\r\n  os_profile_secrets.# = 0\r\n  plan.# = 0\r\n  resource_group_name = development\r\n  storage_data_disk.# = 0\r\n  storage_image_reference.# = 1\r\n  storage_image_reference.2115656022.offer = UbuntuServer\r\n"
+    ],
+    [
+      0.000232,
+      "  storage_image_reference.2115656022.publisher = Canonical\r\n"
+    ],
+    [
+      0.000072,
+      "  storage_image_reference.2115656022.sku = 16.04.0-LTS\r\n"
+    ],
+    [
+      0.000127,
+      "  storage_image_reference.2115656022.version = latest\r\n"
+    ],
+    [
+      0.000076,
+      "  storage_os_disk.# = 1\r\n"
+    ],
+    [
+      0.000114,
+      "  storage_os_disk.3807938709.caching = ReadWrite\r\n"
+    ],
+    [
+      0.000141,
+      "  storage_os_disk.3807938709.create_option = FromImage\r\n"
+    ],
+    [
+      0.000105,
+      "  storage_os_disk.3807938709.disk_size_gb = 0\r\n"
+    ],
+    [
+      0.000139,
+      "  storage_os_disk.3807938709.image_uri = \r\n"
+    ],
+    [
+      0.000129,
+      "  storage_os_disk.3807938709.name = myosdisk1\r\n"
+    ],
+    [
+      0.000091,
+      "  storage_os_disk.3807938709.os_type = \r\n"
+    ],
+    [
+      0.000227,
+      "  storage_os_disk.3807938709.vhd_uri = https://fixazurermdevsa.blob.core.windows.net/vhds/myosdisk1.vhd\r\n"
+    ],
+    [
+      0.000033,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000080,
+      "  tags.environment = Development\r\n"
+    ],
+    [
+      0.000080,
+      "  vm_size = Standard_A0\r\n"
+    ],
+    [
+      0.000071,
+      "fixazurerm_virtual_network.network:\r\n"
+    ],
+    [
+      0.000271,
+      "  id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/virtualNetworks/developmentNetwork\r\n"
+    ],
+    [
+      0.000043,
+      "  address_space.# = 1\r\n"
+    ],
+    [
+      0.000082,
+      "  address_space.0 = 10.0.0.0/16\r\n"
+    ],
+    [
+      0.000060,
+      "  dns_servers.# = 0\r\n"
+    ],
+    [
+      0.000081,
+      "  location = southeastasia\r\n"
+    ],
+    [
+      0.000070,
+      "  name = developmentNetwork\r\n"
+    ],
+    [
+      0.000102,
+      "  resource_group_name = development\r\n"
+    ],
+    [
+      0.000061,
+      "  subnet.# = 3\r\n"
+    ],
+    [
+      0.000103,
+      "  subnet.1472110187.address_prefix = 10.0.1.0/24\r\n"
+    ],
+    [
+      0.000092,
+      "  subnet.1472110187.name = subnet1\r\n"
+    ],
+    [
+      0.000109,
+      "  subnet.1472110187.security_group = \r\n"
+    ],
+    [
+      0.000122,
+      "  subnet.2796830261.address_prefix = 10.0.2.0/24\r\n"
+    ],
+    [
+      0.000105,
+      "  subnet.2796830261.name = subnet2\r\n"
+    ],
+    [
+      0.000125,
+      "  subnet.2796830261.security_group = \r\n"
+    ],
+    [
+      0.000129,
+      "  subnet.4132282879.address_prefix = 10.0.3.0/24\r\n"
+    ],
+    [
+      0.000085,
+      "  subnet.4132282879.name = subnet3\r\n"
+    ],
+    [
+      0.000087,
+      "  subnet.4132282879.security_group = \r\n"
+    ],
+    [
+      0.000046,
+      "  tags.% = 1\r\n"
+    ],
+    [
+      0.000050,
+      "  tags.Name = otto\r\n"
+    ],
+    [
+      0.000026,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000006,
+      "\r\n"
+    ],
+    [
+      0.000025,
+      "Outputs:\r\n"
+    ],
+    [
+      0.000008,
+      "\r\n"
+    ],
+    [
+      0.000166,
+      "public_fqdn = mydevelopment.southeastasia.cloudapp.azure.com\r\n"
+    ],
+    [
+      0.000702,
+      "public_ip_adress = 52.187.45.109\r\n"
+    ],
+    [
+      0.000324,
+      "public_ip_id = /subscriptions/018c30e9-6edb-4a53-9ad0-9aa28e841f25/resourceGroups/development/providers/Microsoft.Network/publicIPAddresses/developmentPublicIP\r\n"
+    ],
+    [
+      0.000078,
+      "region = southeastasia\u001b[0m\r\n"
+    ],
+    [
+      0.003553,
+      "bash-3.2$ "
+    ],
+    [
+      0.000009,
+      "\r\n"
+    ],
+    [
+      0.000036,
+      "bash-3.2$ "
+    ],
+    [
+      0.000005,
+      "\r\n"
+    ],
+    [
+      0.000068,
+      "bash-3.2$ "
+    ],
+    [
+      0.000007,
+      "\r\n"
+    ],
+    [
+      0.000025,
+      "bash-3.2$ "
+    ],
+    [
+      0.000008,
+      "\r\n"
+    ],
+    [
+      0.000071,
+      "bash-3.2$ \r\n"
+    ],
+    [
+      0.000041,
+      "bash-3.2$ "
+    ],
+    [
+      1.000000,
+      "e"
+    ],
+    [
+      0.142793,
+      "x"
+    ],
+    [
+      0.113676,
+      "i"
+    ],
+    [
+      0.190051,
+      "t"
+    ],
+    [
+      0.152387,
+      "\r\n"
+    ],
+    [
+      0.000380,
+      "exit\r\n"
+    ]
+  ]
+}

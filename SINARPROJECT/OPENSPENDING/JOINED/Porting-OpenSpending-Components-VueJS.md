@@ -1,16 +1,32 @@
-# Porting the OpenSpending Components using VueJS
+# Porting the OpenSpending Application into VueJS Components
+
+## Audience
+
+Application Developers looking for details on how an Angular v1 
+application can be decomposed to its constituent and be ported out 
+as a separate and reusable VueJS Component
+ 
+## Objective
+
+- Learn how to safely
+- Have an independent components usuable by VueJS developers.  Have an example
+application that will demonstrate the Joined-Up Data principle but the OSNext
+Application existed by itself.  
 
 ## Scenario
+
+For the high-level details and example code; see the companion article at 
+[here](./Visualize-JoinedUp-Budget-OpenSPending.md)
+
+This is meant for Developers 
+
+The extracted low-level components can be found at: 
+[Babbage.UI Github Repo](https://www.github.com/openspending/babbage.ui)
 
 The components in the OpenSpending Next is available in the babbage.ui repo
 where it is done as Angular components.  VueJS is an up-and-coming framework
 for the View part of MVCs
 
-## Objective
-
-Have an independent components usuable by VueJS developers.  Have an example
-application that will demonstrate the Joined-Up Data principle but the OSNext
-Application existed by itself.  
 
 ## Methods
 
@@ -21,7 +37,7 @@ The components will react to a 'babbage-update' event signal.
 
 The whole process involved two phases:
     a) Phase 1: Port over individual Components
-    b) Phase 2: Port over OSNext Application can Component
+    b) Phase 2: Port over OSNext Application using Component
 
 ### Phase 1: Port over individual Components
 
@@ -44,7 +60,7 @@ The BabbagePackage component will have a concept of the tracked "packageid"
 which is externally passed in from the larger application (see the Joined Up
 data article for more details)
  
-### Integrating External using git-subrepo
+### Integrating External Repository using git-subrepo
 
 The repo is at URL: https://github.com/ingydotnet/git-subrepo.git
 

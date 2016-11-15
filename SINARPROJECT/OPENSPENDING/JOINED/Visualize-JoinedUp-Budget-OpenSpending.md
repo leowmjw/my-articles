@@ -79,6 +79,13 @@ This is how it is coded (in more details)
 
     abc
     
+![TreeMap](./IMAGES/Demo-Components-TreeMap.png)
+
+![BubbleTree](./IMAGES/Demo-Components-BubbleTree.png)
+
+![Pie](./IMAGES/Demo-Components-Pie.png)
+
+
 ### Data Sources
 
 - OpenSpending

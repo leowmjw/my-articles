@@ -2,7 +2,7 @@
 
 ## Audience
 
-- Program Officers looking to maximize budget implementing a "Joined Up" Data Application in a tight duration while still maintaining high quality.
+- Program Officers looking to maximize budget implementing a "Joined Up" Data Application quickly and efficiently while still maintaining high quality.
 
 - Application Developers looking for a working example of composing together independent, modular Components for their "Joined Up" Data Applications.
 
@@ -10,7 +10,7 @@
 
 - Demonstrate how a "Joined Up" Data Application can be assembled quickly and easily from independent Components.
 
-- Walk through the assembly of a "Joined Up" Data Application data flow??
+- Walk through the assembly of a "Joined Up" Data Application with a real-life scenario, concrete examples and clear explanation of the details.
 
 **NOTE:** For technical description of how the Components were developed; check out the companion article found [here](./Porting-OpenSpending-Components-VueJS.md)
 
@@ -101,8 +101,21 @@ This is how it is coded (in more details)
     c2) Budget Details <babbage_package> component
 
     abc
+
+Users that need more details can click on the link to **"OSNext"** where the full capabilities of the OpenSpending portal is available and these independent components become another lead-in for the platform.
+
+    ![TreeMap](./IMAGES/Demo-BabbagePackage-HighLevel-Code.png)
+
     
 #### Budget Details Component
+
+The element "<babbage_package>" houses the following when drilled down:
+
+    ![TreeMap](./IMAGES/Demo-BabbagePackage-LowLevel-Code.png)
+
+The same budget data view is shown by default in 3 different visualization: TreeMap, BubbleTree and Pie Components.
+
+**NOTE:** For technical description of how the Components were developed; check out the companion article found [here](./Porting-OpenSpending-Components-VueJS.md)
 
     ![TreeMap](./IMAGES/Demo-Components-TreeMap.png)
 
@@ -121,13 +134,14 @@ This is how it is coded (in more details)
 
 - We can also use Components like FixMyStreet () that will show the issues reported that can be tied back to .  For see example of http://www.aduanku.my. 
 
-Other ideas might be to link any issue/questions brought up in the media for the Ministry so navigate the ownership of the problem solving
+embed into a normal in order to enhance comprehension and data exploration
 
 
 ## Conclusion
 
-In conclusion; the source code is very readablar and combine ..
+A "Joined Up" Data Application assembled by composing Components is readable, understandable and can be easily reasoned about; even to a non-technical stakeholder like the Program Officer.
 
-Do not try to solve any problem direct from scratch.  A "Joined Up" Data Application can be swiftly assembled by composing a few components: "Ministry Selection and Published Budgets", "Ministry Details", "Budget Details" in various permutation to achieve the particular target.
+The message is clear: Do not try to solve any problem direct from scratch; reuse the available Components and share any new Components created.
 
-everything with your App; reuse high quality
+The example "Joined Up" Data Application to hold Ministers under Ministry accountable via their Budget; demo-ed the process of swiftly assembling a complete functional app via composing the: **"Ministry Selection and Published Budgets", "Ministry Details", "Budget Details"** Components.
+

@@ -12,7 +12,7 @@
 
 - Walk through the assembly of a "Joined Up" Data Application with a real-life scenario, concrete examples and clear explanation of the details.
 
-**NOTE:** For technical description of how the Components were developed; check out the companion article found [here](./Porting-OpenSpending-Components-VueJS.md)
+**NOTE:** For technical description of how the individual Components were developed; check out the companion article found [here](./Porting-OpenSpending-Components-VueJS.md)
 
 ## Scenario
 
@@ -41,50 +41,46 @@ This is the good mantters; count on it .. this is the mannager ..
 
 In order to join up Ministry, Ministers and Budget data to fit the above scenario, a High Level Architecture might be made out of below Components:
 
-a) A component that allows a Ministry to be selected; in which Published Budgets will displayed.  Each Published Budgets will be allowed to be  selected. [Ministry Selection and Published Budgets Component](#ministry-selection-and-published-budgets-component)
+a) A component that allows a Ministry to be selected; in which Published Budgets will displayed.  Each Published Budgets will be allowed to be selected independently to be visualized. [Ministry Selection and Published Budgets Component](#ministry-selection-and-published-budgets-component)
 
-b) A component that reacts to the Ministry selection by the user and renders the details of the Minister and Deputies based on the data in PopIt [Minister Details Component](#minister-details-component)
+b) A component that reacts to the Ministry selection by the user and renders the details of the Minister and Deputies based on the data retrieved from the PopIt API. [Minister Details Component](#minister-details-component)
 
 c) A component that reacts to the selection event by the user of a Published Budget (via a unique identifier) and renders the default Visualization in the form of TreeMap, BubbleTree and Pie; but allows  further user interaction. [Budget Details Component](#budget-details-component)
 
-d) Everything ties together via a messaging event bus [Application Component](#application-component)
+d) An overall component that wraps the 3 major Components described prior and handle the event communications based on the user action and events triggered. [Application Component](#application-component)
+
+The final application with all the components assembled as per above looks as per below:
+    
+    ![VueJS Final Demo](./IMAGES/VueJS-Final-Demo.png)
 
 ### Drill-down to each Components
 
-Let's have a look at the Components in further details based on the High Level Architecture Sketch above.  The exact make of the 
+Let's have a look at the individual Components; covered by the High Level Architecture Sketch above; in more details.  
 
-It is very readable etc.
-
-The application can be broken down simply to 3 parts:
+We'll start with the overall Application Component which controls the functionality of this app:
 
 #### Application Component
 
-a) Overall Application
+At the macro level, all 3 Sub-Components are clearly demarcated as per code below.  
 
-    abc
-
-PLaceholder here 
-
-    ![abc](./IMAGES/VueJS-Final-Demo.png)
-
-    ![abc](./IMAGES/VueJS-Final-Demo-Code.png)
+However, only the first component is actually rendered until the user takes further action to select a Ministry. 
+ 
+    ![VueJS Final Demo Code](./IMAGES/VueJS-Final-Demo-Code.png)
 
 #### Ministry Selection and Published Budgets Component
 
-b) Ministry Selection and their underlying Published Budgets
-    
-PLaceholder here ![abc](https://avatars-05.gitter.im/group/iv/3/57542d72c43b8c601977cdd3?s=48)
+The first component which allows the user to select the Ministry to be analyzed is made out of two section: Ministry Selection (marked as red) and (marked as orange); that will render the full list of available Published Budgets that the user can select for the next step in visualization.    
 
-    Show Ministry + Available Budgets
+    ![Demo Show Ministry Available Budgets](./IMAGES/Demo-Show-Ministry-Available-Budgets.png)
 
-    ![abc](./IMAGES/Demo-Show-Ministry-Available-Budgets.png)
+Once a Ministry has been selected by the user, the Components to show the Ministry Details along with the Budget Details now becomes activated:
+
+    ![Code - Demo Show Ministry Available Budgets](./IMAGES/Demo-Show-Selected-Ministers-Available-Budgets-Code.png)
+
 
 #### Minister Details Component
 
-Once selected, below code becomes activated:
-
-    ![abc](./IMAGES/Demo-Show-Selected-Ministers-Available-Budgets-Code.png)
-
+This component is referred to with the element named **<related_ministries_info>**
 
     c1) Ministers Details <related_ministries_info> component
 
@@ -92,11 +88,11 @@ Once selected, below code becomes activated:
 
     Minister of the Chosen Ministry
      
-    ![abc](./IMAGES/Demo-Minister-Chosen-Ministry.png)
+   ![abc](./IMAGES/Demo-Minister-Chosen-Ministry.png)
     
 This is how it is coded (in more details)
         
-    ![abc](./IMAGES/Demo-Minister-Chosen-Ministry-Code.png)
+   ![abc](./IMAGES/Demo-Minister-Chosen-Ministry-Code.png)
 
     c2) Budget Details <babbage_package> component
 
@@ -104,10 +100,12 @@ This is how it is coded (in more details)
 
 Users that need more details can click on the link to **"OSNext"** where the full capabilities of the OpenSpending portal is available and these independent components become another lead-in for the platform.
 
-    ![TreeMap](./IMAGES/Demo-BabbagePackage-HighLevel-Code.png)
+   ![BabbagePackage](./IMAGES/Demo-BabbagePackage-HighLevel-Code.png)
 
     
 #### Budget Details Component
+
+This component is referred to with the element named **<babbage_package>**
 
 The element "<babbage_package>" houses the following when drilled down:
 

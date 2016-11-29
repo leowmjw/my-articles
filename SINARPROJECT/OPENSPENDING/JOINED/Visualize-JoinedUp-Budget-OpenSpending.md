@@ -3,37 +3,33 @@
 ## Audience
 
 - Program Officers looking to maximize budget implementing a "Joined Up" Data Application quickly and efficiently while still maintaining high quality.
-
 - Application Developers looking for a working example of composing together independent, modular Components for their "Joined Up" Data Applications.
 
 ## Objective
 
 - Demonstrate how a "Joined Up" Data Application can be assembled quickly and easily from independent Components.
-
 - Walk through the assembly of a "Joined Up" Data Application with a real-life scenario, concrete examples and clear explanation of the details.
 
 **NOTE:** For technical description of how the individual Components were developed; check out the companion article found [here](./Porting-OpenSpending-Components-VueJS.md)
 
 ## Scenario
 
-In a constrained environment like in Malaysia as per my recent presentation about Open Government in Malaysia:
+In a constrained environment such as Malaysia information is only available in drip and drabs.  As per my recent presentation about [Open Government in Malaysia](https://docs.google.com/presentation/d/1IDijfN0AlVX4KE80LqRxGg7CrbR79u-X75TSGUHjTQw/edit?usp=sharing); data is not readily accessible in raw form, in proper machine-readable formats and data is mostly silo-ed; frustrating analysis.
 
-Information only becomes available in drip and drabs; and can only be collected in scraps bit by bit.  Data is available as silo-ed
+In light of this, order to the budget; how can we make it accessible to the general public; and who to hold accountable?
 
-Every October, the Malaysian Government presents its Budget for the upcoming year.  The data is published as non-machine readable PDF separated by specific Ministries.
+Every October, the Malaysian Government presents its Budget for the upcoming year.  The data is published as non-machine readable PDF separated by specific Ministries.  Detailed information about Ministries and their associated Ministers are scattered around
 
-In order to will present the budget; how can we make it accessible to the general public; and who to hold accountable?
+The goal is to come up with a simple Proof-of-Concept (PoC) "Joined Up" Data Application (using the individual silo data below) that allows the user to choose the Ministry to be scrutinized against its published Budget in an easy, interactive and user-friendly manner (via Visualization).
 
-A simple Proof-of-Concept (PoC) "Joined Up" Data Application should be assembled that allows the user to choose the Ministry to be scrutinized.
+The data we want to be able to work with have been cleaned up and made available in open accessible format (still silo-ed) at the following location:
 
-The data we want to be able to work with Popolo data; another project Sinar Project has been working on as the basic from the etc.  The budget data comes from the OpenSpending API.  
-
-In summary:
+Ministry + Ministers details (following [Popolo](http://www.popoloproject.com/specs/) standard):
 PopIt - http://api.popit.sinarproject.org
+
+The budget data comes from the OpenSpending API (following [Open Fiscal Data Package](http://specs.frictionlessdata.io/fiscal-data-package/) standard): 
 OpenSpending - http://next.openspending.org
 
-
-This is the good mantters; count on it .. this is the mannager ..
 
 ## Methodology
 
@@ -51,9 +47,9 @@ d) An overall component that wraps the 3 major Components described prior and ha
 
 The final application with all the components assembled as per above looks as per below:
     
-    ![VueJS Final Demo](./IMAGES/VueJS-Final-Demo.png)
+   ![VueJS Final Demo](./IMAGES/VueJS-Final-Demo.png)
 
-### Drill-down to each Components
+### Detailed Analysis of Components
 
 Let's have a look at the individual Components; covered by the High Level Architecture Sketch above; in more details.  
 
@@ -65,74 +61,75 @@ At the macro level, all 3 Sub-Components are clearly demarcated as per code belo
 
 However, only the first component is actually rendered until the user takes further action to select a Ministry. 
  
-    ![VueJS Final Demo Code](./IMAGES/VueJS-Final-Demo-Code.png)
+   ![VueJS Final Demo Code](./IMAGES/VueJS-Final-Demo-Code.png)
 
 #### Ministry Selection and Published Budgets Component
 
 The first component which allows the user to select the Ministry to be analyzed is made out of two section: Ministry Selection (marked as red) and (marked as orange); that will render the full list of available Published Budgets that the user can select for the next step in visualization.    
 
-    ![Demo Show Ministry Available Budgets](./IMAGES/Demo-Show-Ministry-Available-Budgets.png)
+   ![Demo Show Ministry Available Budgets](./IMAGES/Demo-Show-Ministry-Available-Budgets.png)
 
 Once a Ministry has been selected by the user, the Components to show the Ministry Details along with the Budget Details now becomes activated:
 
-    ![Code - Demo Show Ministry Available Budgets](./IMAGES/Demo-Show-Selected-Ministers-Available-Budgets-Code.png)
+   ![Code - Demo Show Ministry Available Budgets](./IMAGES/Demo-Show-Selected-Ministers-Available-Budgets-Code.png)
 
 
 #### Minister Details Component
 
-This component is referred to with the element named **<related_ministries_info>**
+The Minister Details Component will pull out the detailed data from the PopIt API of the user selected Ministry.  filtered under the "Fifth Cabinet of Najib Razak" to match up with the time period of the budget.
 
-    c1) Ministers Details <related_ministries_info> component
-
-    expands to ..
-
-    Minister of the Chosen Ministry
+In the codebase seen earlier, this Component is referred to with the element named **<related_ministries_info>**: 
      
    ![abc](./IMAGES/Demo-Minister-Chosen-Ministry.png)
     
-This is how it is coded (in more details)
+The Component code layout is fairly standard view of the Ministry details along with the high quality headshot image of the Ministry and any Deputies.
         
    ![abc](./IMAGES/Demo-Minister-Chosen-Ministry-Code.png)
-
-    c2) Budget Details <babbage_package> component
-
-    abc
-
-Users that need more details can click on the link to **"OSNext"** where the full capabilities of the OpenSpending portal is available and these independent components become another lead-in for the platform.
-
-   ![BabbagePackage](./IMAGES/Demo-BabbagePackage-HighLevel-Code.png)
-
     
 #### Budget Details Component
 
-This component is referred to with the element named **<babbage_package>**
+Next, let's look at the Budget Details Component; which will present an easy to navigate summary of the Published Budget data selected by the user.
 
-The element "<babbage_package>" houses the following when drilled down:
+Users that need more details can click on the link to **"OSNext"** where the full capabilities of the OpenSpending portal is available such as more Visualization options (e.g Pivot Table, San Key) and more powerful drill-down (different measures, different filters).
 
-    ![TreeMap](./IMAGES/Demo-BabbagePackage-LowLevel-Code.png)
+   ![BabbagePackage](./IMAGES/Demo-BabbagePackage-HighLevel-Code.png)
 
-The same budget data view is shown by default in 3 different visualization: TreeMap, BubbleTree and Pie Components.
+In the codebase seen earlier, this Component is referred to as the element that is named **<babbage_package>**.
+
+The element **<babbage_package>** itself is made out of the 3 Sub-Components for visualizing the data in 3 forms: TreeMap, BubbleTree and Pie.
+
+   ![TreeMap](./IMAGES/Demo-BabbagePackage-LowLevel-Code.png)
+
+Each Sub-Component can be hidden from view by the user.  Multiple budgets can be visualized simultaneously as a unique packageid is used to differentiate and prevent overlaps.  
+
+Each of the Sub-Component's items can be "drilled-down" by clicking on the section of interest; the next level of hierarchy of data will be shown.
 
 **NOTE:** For technical description of how the Components were developed; check out the companion article found [here](./Porting-OpenSpending-Components-VueJS.md)
 
-    ![TreeMap](./IMAGES/Demo-Components-TreeMap.png)
+The TreeMap Sub-Component has the visual area size to represent the ratio of budgeted amount vis-a-vis the other line items in the same level of hierarchy.  This is expressed further down in clear TreeMap List which can be sorted by the raw amount as well as by its relative ration:
 
-    ![BubbleTree](./IMAGES/Demo-Components-BubbleTree.png)
+   ![TreeMap](./IMAGES/Demo-Components-TreeMap.png)
 
-    ![Pie](./IMAGES/Demo-Components-Pie.png)
+The BubbleTree Sub-Component also uses the relative size of the bubbles to indicate the ratio of values for any particular hierarchy level of the Measure:
 
+   ![BubbleTree](./IMAGES/Demo-Components-BubbleTree.png)
 
-### Data Sources Details
+The Pie Sub-Component is the most mundane of the three, a standard Pie Chart:
+    
+   ![Pie](./IMAGES/Demo-Components-Pie.png)
 
-- OpenSpending API: http://next.openspending.org
-- PopIt Data of Ministers of Ministires for Fifth Cabinet of Najib Razak: http://api.popit.sinarproject.org
- 
 
 ### Further Ideas
 
-- We can also use Components like FixMyStreet () that will show the issues reported that can be tied back to .  For see example of http://www.aduanku.my. 
+We can also use Components to wrap around other data sources like from Partners like [FixMyStreet](http://www.fixmystreet.org/) (FMS).  
 
-embed into a normal in order to enhance comprehension and data exploration
+In the context of Malaysia, we can provide a Component that allows the user to relate issues reported by our locally-branded FMS - [Aduanku](https://www.aduanku.my/) against the accountable parties at all levels of government; whether it is the Member of Parliament, State Assemblyman or the Local Councillor.  
+
+Again, the "Joined Up" Data will involve composing against data extracted from the PopIt API. 
+
+Finally; since Components are pretty much standalone, especially when implemented via VueJS; it makes it much easier to be incorporated into a normal static content site.  For example: A "Public Hospital Budget and Expenditure" Component used .  
+
+This ability to easily embed interactive data / visualization  into a normal site in order to enhance comprehension and data exploration for non-developers as well as non-technical users, is particularly invaluable.
 
 
 ## Conclusion

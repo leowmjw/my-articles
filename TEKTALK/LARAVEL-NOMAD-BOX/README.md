@@ -3,6 +3,10 @@
 #### _`Michael Leow: Lead, Freedom of Information Initiatives, Sinar Project`_
 #### _`Laravens: May 17, 2017`_
 
+## Slides
+
+- Laravel App Lifecycle from Dev to Prod using Laradock + Nomad Box, LaraTalk #5 May 2017 - https://goo.gl/xdvFHr
+
 ## Objective
 
 - Show how a typical Laravel App (Lets-Build-a-Forum-in-Laravel) built with Laradock (http://laradock.io/) with its use of Workspace to simplify development to target Docker container

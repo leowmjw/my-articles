@@ -1,4 +1,4 @@
-# Automated LXD w/ ZFS Setup
+#  Setup DataCenter In a Box Using LXD + ZFS
 
 ## Objective
 - To document a method to deploy the so that can simulate a full VNet like in Azure Cloud system on your own laptop
@@ -17,4 +17,11 @@
 - Learn how to prepare the ZFS Pool for use by ZFS
 - Learn how to prepare a headless install and config of LXD; with some useful default profiles 
 - Learn how to pull images that have cloud-init capablities and link their automation to with the profiles
-- 
+- Test the automatic bootstrap of a consul cluster
+
+## Content link
+- [Getting Started](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#getting-started)
+- [Installing LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#installing-lxd-zfs)
+- [Setup LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#setup-lxd-zfs)
+- [Auto Install Consul Cluster](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#auto-install-consul-cluster)
+- [Internals](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#internals)

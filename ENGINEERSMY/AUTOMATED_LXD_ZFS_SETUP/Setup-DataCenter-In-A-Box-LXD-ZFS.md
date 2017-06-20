@@ -11,12 +11,12 @@ Assumes on one of the below environments running Ubuntu 16.04:
 - VirtualBox (no native Hypervisors like above)
 - Azure (simulate full cluster using only one node; with fast network)
 
-Get the script, make executable and run the script as found in the Nomad Box [repo](https://github.com/leowmjw/nomad-box).
+Get the script, make executable and run the script as found in the Nomad Box [repo](https://github.com/leowmjw/nomad-box). The main script inside the repo is in `/lxd/scripts/initlxd.sh`.  
 
 The following is just explanation what the script is doing...
 
 ### Installing LXD + ZFS
-The packages from the standard Ubuntu 16.04 is just too old so there is a need to get the latest packages (which has the important features like emulating VNet-like network + subnetworks):
+The packages from the standard Ubuntu 16.04 is just too old so there is a need to get the latest packages (which has the important features like emulating VNet-like network + sub-networks):
 ```
 # LXD needs the bleeding edge; thus add as per below to get at LXD + ZFS
 export DEBIAN_FRONTEND=noninteractive && \
@@ -36,8 +36,21 @@ no pools available
 
 ### Setup LXD + ZFS
 
-#### ZFS Setup ..
-NOTE2: For a standalone VirtualBox, Xhyve or Hyper-V; the below would be the better option
+The setup is automated by executing the `/tmp/script/initlxd.sh` script.
+Below is the in-depth explanation of the why and how the script is structured.
+
+#### ZFS Setup
+For a development type setup, it is fine to use a file loopback as the backing for the ZFS setup.  In real production, as fast SSD partition and device would be advisable.
+
+For a standalone VirtualBox, Xhyve or Hyper-V installation; the below would be the code to prepare the ZFS device to be made into a ZPool:
+```
+$ # On a VBox, the only valid assumption is that it will have a /var/lib/lxd/ directory after the installation of LXD
+$ sudo dd if=/dev/zero of=/var/lib/lxd/zfs.img bs=1k count=1 seek=100M && \
+        zpool create my-zfs-pool /var/lib/lxd/zfs.img
+
+```
+On an Azure machine; the standard `Standard_DS2_v2_Promo` instance looks like below:
+
 ```
 $ sudo df -TH
 Filesystem     Type      Size  Used Avail Use% Mounted on
@@ -57,9 +70,9 @@ Mem:        7131864      341656     5112716       17364     1677492     6483948
 Swap:             0           0           0
 ```
 
-As can be seen above, the root device (/dev/sda1), there is 29G available space.  The **ephemeral** device is currently not being used as sawp (see the `free` command output) so can be used as a ZFS cache.
+As can be seen above, the root device (/dev/sda1), there is 29G available space.  The **ephemeral** device is currently not being used as swap (see the `free` command output) so can be used as a ZFS cache.
 
-On an Azure machine; 
+The code to setup the Azure node is as below:
 ```
 # Code:
 #     dd if=/dev/zero of=/var/lib/lxd/zfs-azure.img bs=1k count=1 seek=100M && \
@@ -193,6 +206,9 @@ $ lxc network list
 ```
 ### Auto Install Consul Cluster
 
+Now with the underlying network setup, the goal is to auto boot up nodes and form a Consul Cluster automatically on an Ubuntu 17.04 installation with the latest Consul 0.8.4:
+
+The available image repos:
 ```
 $ lxc remote list
 
@@ -211,15 +227,10 @@ $ lxc remote list
 
 We'll get the latest Ubuntu images from the remote ubuntu-daily to live on the leading edge.  Images that come from the cloud-images repo has one important characteristic; it has `cloud-init` which we'll need to bootstrap the Consul nodes into the cluster.
 
-Image can be obtained by launching a new image; and aliasing the repo:
+Image can be obtained by copying image from remote; giving it an alias:
 ```
-$ lxc launch ubuntu-daily:17.04
-Creating certain-krill
-                                            
-The container you are starting doesn't have any network attached to it.
-  To create a new network, use: lxc network create
-  To attach a network to a container, use: lxc network attach
-$ lxc image alias create zesty b334ae64a8c3
+# Pull 17.04 and latest; have options to select ..
+$ lxc image copy ubuntu-daily:17.04 local: --alias=zesty
 $ lxc image list
 +-------+--------------+--------+---------------------------------------+--------+----------+------------------------------+
 | ALIAS | FINGERPRINT  | PUBLIC |              DESCRIPTION              |  ARCH  |   SIZE   |         UPLOAD DATE          |
@@ -253,10 +264,66 @@ Source:
     Alias: 17.04
 ```
 #### Executing cloud-init templates
-HOWTO ..
+Now that the images are available, there is a need to create a profile for the Foundation type nodes which will execute the cloud-init script via the user-data parameter.  
 
-### Internals
+The cloud-init script will be similar to the ones used in the main Nomad Box Azure setup.  The lxd-foundation-init.sh used below can be found in the Nomad Box repo under `/lxd/scripts/lxd-foundation-init.sh`
+```
+# Attach profile for Foundation-type nodes
+lxc profile create foundation
+# Need to provide the cloud-init.sh scripts ..
+lxc profile set foundation user.user-data - < /tmp/script/lxd-foundation-init.sh
 
-#### Setting up ZFS with proper RaidZ
+```
+Once the correct profile is setup as per above, the nodes can be initialized and started:
+```
+# Exec in and confirm it is running
+lxc init zesty -p default -p foundation f1 && \
+    lxc network attach fsubnet1 f1 eth0 && \
+    lxc config device set f1 eth0 ipv4.address 10.1.1.4
 
+lxc init zesty -p default -p foundation f2 && \
+    lxc network attach fsubnet2 f2 eth0 && \
+	lxc config device set f2 eth0 ipv4.address 10.1.2.4
 
+lxc init zesty -p default -p foundation f3 && \
+    lxc network attach fsubnet3 f3 eth0 && \
+	lxc config device set f3 eth0 ipv4.address 10.1.3.4
+
+lxc start f1 && lxc start f2 && lxc start f3
+
+```
+
+NOTE: Consul servers need to have custom node-id inside LXD, otherwise it gets confused that there are multiple Consul servers that are identical.  
+
+To solve this, the Consul servers need to be executed with the flag `-disable-host-node-id` as documented [here](https://www.consul.io/docs/agent/options.html#_disable_host_node_id)
+
+```
+root@f3:/opt/consul# echo ${CONSUL_BIND_ADDRESS}
+10.1.3.4
+root@f3:/opt/consul# /opt/consul/consul agent -server -ui -bootstrap-expect=3 -data-dir=/tmp/consul   -config-dir=/opt/consul/consul.d -retry-join=10.1.1.4 -retry-join=10.1.2.4 -retry-join=10.1.3.4 -bind=${CONSUL_BIND_ADDRESS} -disable-host-node-id
+
+```
+
+### Output
+
+For VirtualBox, you'll need to use sshuttle to access the LXD nodes network space of `10.1.0.0/16` with a command like below:
+```
+# Replace <PUBLIC_IP_BASTION>; for Azure it might be 52.187.116.82, VBox might be 192.168.1.132 etc
+$ sshuttle -vH -r testadmin@<PUBLIC_IP_BASTION> 10.1.0.0/16
+
+```
+
+When you go to the IP address or node-name (f1,f2,f3) of any of the LXD nodes (http://10.1.1.4 [f1] or http://10.1.2.4 [f2] or http://10.1.3.4 [f3] )with Consul server and at Consul port, you will see the following:
+
+   ![Consul Admin Dashboard](./IMAGES/Consul-Admin.png)
+
+Other commands can be executed against any of the Consul servers to ensure the quorum is there:
+```
+testadmin@acme-nomad-dev-experiment-node-1:~$ CONSUL_HTTP_ADDR=http://10.1.3.4:8500 /opt/consul/consul members
+Node  Address        Status  Type    Build  Protocol  DC
+f1    10.1.1.4:8301  alive   server  0.8.4  2         dc1
+f2    10.1.2.4:8301  alive   server  0.8.4  2         dc1
+f3    10.1.3.4:8301  alive   server  0.8.4  2         dc1
+```
+
+Now, you have a usable Consul Server Cluster, next is to add more nodes that will do the load balancer(Director Nodes) and execute workloads (Worker Node).  That will be in the next article ..

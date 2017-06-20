@@ -23,5 +23,6 @@
 - [Getting Started](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#getting-started)
 - [Installing LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#installing-lxd-zfs)
 - [Setup LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#setup-lxd-zfs)
+- [LXD Headless Setup](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#lxd-headless-setup)
 - [Auto Install Consul Cluster](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#auto-install-consul-cluster)
-- [Internals](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#internals)
+- [Output](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#output)

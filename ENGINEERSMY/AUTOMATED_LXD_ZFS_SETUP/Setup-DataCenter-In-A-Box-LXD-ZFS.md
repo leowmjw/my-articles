@@ -313,7 +313,7 @@ $ sshuttle -vH -r testadmin@<PUBLIC_IP_BASTION> 10.1.0.0/16
 
 ```
 
-When you go to the IP address or node-name (f1,f2,f3) of any of the LXD nodes (http://10.1.1.4 [f1] or http://10.1.2.4 [f2] or http://10.1.3.4 [f3] )with Consul server and at Consul port, you will see the following:
+When you go to the IP address or node-name (f1,f2,f3) of any of the LXD nodes (http://10.1.1.4:8500 [http://f1:8500] or http://10.1.2.4:8500 [http://f2:8500] or http://10.1.3.4:8500 [http://f3:8500] )with Consul server and at Consul port, you will see the following:
 
    ![Consul Admin Dashboard](./IMAGES/Consul-Admin.png)
 

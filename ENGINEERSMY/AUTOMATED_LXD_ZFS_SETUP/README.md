@@ -9,7 +9,7 @@
 
 ## References
 - Code can be found in the current [Nomad Box](https://www.github.com/leowmjw/nomad-box) code
--   in  ...
+- The main script inside the repo is in `/lxd/scripts/initlxd.sh`.
  
 ## Highlights 
 - Learn what are the base hypervisor's needed to deploy this: VirtualBox, Xhyve, MS Hyper-V 
@@ -21,8 +21,8 @@
 
 ## Content link
 - [Getting Started](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#getting-started)
-- [Installing LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#installing-lxd-zfs)
-- [Setup LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#setup-lxd-zfs)
+- [Installing LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#installing-lxd--zfs)
+- [Setup LXD + ZFS](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#setup-lxd--zfs)
 - [LXD Headless Setup](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#lxd-headless-setup)
 - [Auto Install Consul Cluster](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#auto-install-consul-cluster)
 - [Output](./Setup-DataCenter-In-A-Box-LXD-ZFS.md#output)

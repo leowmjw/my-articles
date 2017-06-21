@@ -1,7 +1,7 @@
 # Laravel App Lifecycle from Dev to Prod using Laradock + Nomad Box
 
 #### _`Michael Leow: Lead, Freedom of Information Initiatives, Sinar Project`_
-#### _`Laravens: May 27, 2017`_
+#### _`Laravens: May 17, 2017`_
 
 ## Slides
 

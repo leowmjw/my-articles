@@ -1,13 +1,17 @@
 #  Setup Native Scheduling ElasticSearch Cluster Locally + AzureRM Using Nomad (Part 1)
 
 ## TL;DR
-In order to run distributed worklaod natively; there is no need to run it in Docker.  Show how it is done using Nomad to run a native ElasticSearch single node and 
+In order to run distributed Java workload natively; there is no need to run it in Docker, incurring an additional layer of abstraction; while still retaining proper workload isolation.  Demo how a Nomad Job Specification is created by porting from existing ElasticSearch startup script.  Examples will be running native ElasticSearch single node and also cluster. 
 
 ### Getting Started
 
-For Part 1; we will run Consul + Nomad in local development mode.  This will be used to deploy the workloads.
+For Part 1; we will run Consul + Nomad in local development mode.  This will be used to deploy the workloads. If you are new to Nomad, read more about it [here](https://www.nomadproject.io/intro/index.html).  It also assumes your machine already has the latest Java JDK installed.
 
-Optionally, you can use the excellent community contributed hashi-ui to track the services.
+Get the necessary binaries here:
+- [Consul](https://www.consul.io/downloads.html) - Latest version is v0.9.2
+- [Nomad](https://www.nomadproject.io/downloads.html) - Latest version is v0.6.2
+- [ElasticSearch](https://www.elastic.co/downloads/elasticsearch) - Latest version is v5.5.2
+- [Hashi UI](https://github.com/jippi/hashi-ui/releases) - Latest version is v0.17.0.  Thi is optional but is excellent to debug and track the service being deployed.
 
 Download the latest ElasticSearch binaries (ES-5.5) to be served locally and not need to continuously download it again.
 

@@ -1,11 +1,11 @@
-#  Setup Native Scheduling ElasticSearch Cluster Locally + AzureRM Using Nomad
+#  Setup Native Scheduling ElasticSearch Cluster Locally + AzureRM Using Nomad (Part 1)
 
 ## Objective
-- Investigate how a Java-based application can be ported to run at scale on [Nomad](https://www.nomadproject.io); seeing the gotchas and .  quick comparison against running in Docker instead
+- Investigate how a Java-based application can be ported to run at scale on [Nomad](https://www.nomadproject.io); highlighting potential gotchas and pitfalls when performing the port.  Also show how a native Java workload can easily be run together with Docker workload using Nomad.
 
 ## Audience
-- Developers wanting to setup and use ES easily but still getting assurance doing the right thing
-- Operators getting started with running a HA ElasticSearch Cluster
+- Developers wanting to setup and use ElasticSearch easily but still be able to test in production-like setup
+- Operators getting started with running a High Availability ElasticSearch Cluster in Nomad
 
 ## References
 - Java example - ESClsuter - Nomad-Samples [Nomad Samples](https://www.github.com/leowmjw/nomad-samples) code

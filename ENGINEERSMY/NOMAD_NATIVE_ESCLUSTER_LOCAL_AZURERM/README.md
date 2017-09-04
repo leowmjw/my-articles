@@ -8,10 +8,9 @@
 - Operators getting started with running a High Availability ElasticSearch Cluster in Nomad
 
 ## References
-- Java example - ESClsuter - Nomad-Samples [Nomad Samples](https://www.github.com/leowmjw/nomad-samples) code
-- Script is under the folder `/lxd/scripts/initlxd.sh`.
-                              
-- Docker Elasticserch
+- Nomad Job Specification: https://www.nomadproject.io/docs/job-specification/index.html
+- Native Java Workload Example, ElasticSearch: [Nomad Samples](https://www.github.com/leowmjw/nomad-samples) 
+- Example job specification is under the folder: `/java/go-elasticsearch`.  Named `elasticsearch.nomad` and `cluster-elasticsearch.nomad`.  A Docker example is also provided `docker-cluster-elasticsearch.nomad`.
  
 ## Highlights 
 - How to port over bash startup script into Nomad Job Specs

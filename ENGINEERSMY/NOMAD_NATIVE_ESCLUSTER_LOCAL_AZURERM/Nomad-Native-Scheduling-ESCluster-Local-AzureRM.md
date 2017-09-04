@@ -102,14 +102,15 @@ Confirm startup:
 
 Confirm Nomad Client (Laptop) has recognized the Java driver:
 
-- Click the "Clients" link in the sidebar and click on the ID link for the laptop:
+- Click the "Clients" link in the sidebar and click on the ID link for the laptop.  You should see the driver properties of java set to 1:
     
     ![Nomad Client Java Driver](./IMAGES/Nomad-Client-Java-Driver.png) 
     
 ### Single Node
 
-In order to get started porting over the ElasticSearch startup scripts, get the latest ES binaries.  It can be served locally to mimic its binary deployment in production as an artifact.  Use any local web server like http-server to serve the directory in which the binary has been downloaded to.  Get http-server via the command `npm install -g http-server` if not already available.
+In order to get started porting over the ElasticSearch startup scripts, get the latest ES binaries.  It should be served locally to mimic its binary deployment in production as an artifact.  Use any local web server like http-server to serve the directory in which the binary has been downloaded to.  Get http-server via the command `npm install -g http-server` if not already available.
 
+Serve the downloaded file (in zip format, no need to unzip!) as per below:
 ```bash
 # The downloaded ES zip file is stored in the ELASTICSEARCH folder
 leow$ http-server ELASTICSEARCH/
@@ -119,9 +120,9 @@ Available on:
   http://192.168.1.13:8080
 ```
 
-It can also be downloaded direct from ElasticSearch but to be faster we store and serve it locally.
+Nomad can actually download the needed artifact directly from ElasticSearch site (which is what will be done in production); but to be faster in iterating during development we store and serve it locally.
 
-The artifact stanza can be used to indicate where to download the ElasticSearch binary and can be check-summed for extra security:
+The artifact stanza can be used to indicate where to download the ElasticSearch binary and can be check-summed (SHA1) for extra security:
 ```hcl
       artifact {
         source = "http://localhost:8080/elasticsearch-5.5.2.zip"
@@ -133,47 +134,19 @@ The artifact stanza can be used to indicate where to download the ElasticSearch 
       }
 ```
 
-For ES to be run using the Java driver; the startup script needs to be ported to fit the java driver stanza.  In the startup script for ElasticSearch (inside ./bin/elasticsearch folder), the relevant command looks like below:
+For ElasticSearch (ES) to be run using the Java driver; the startup script needs to be ported to fit the java driver stanza.  In the startup script for ElasticSearch (found it `./bin/elasticsearch`), the relevant command to start ES looks like below:
 
 ```bash
     exec "$JAVA" $ES_JAVA_OPTS -Des.path.home="$ES_HOME" -cp "$ES_CLASSPATH" \
           org.elasticsearch.bootstrap.Elasticsearch "$@"
 ```
 
-The necessary attributes for java driver is as below for a simple setup (only one node running).
+The necessary attributes for java driver is as below for a simple setup (only one node running):
 
-The $ES_CLASSPATH matches `class_path` attribute under the `config` section.  The `class` needed to run is `org.elasticsearch.bootstrap.Elasticsearch`:
-```hcl
-job "search" {
-  datacenters = [
-    "dc1"
-  ]
-  type = "service"
-...  
-  group "simple" {
-    count = 1
-...
-    task "elasticsearch" {
-      driver = "java"
-...
-      config {
-        class = "org.elasticsearch.bootstrap.Elasticsearch"
-        class_path = "local/elasticsearch-5.5.0/lib/*"
-...
-```
+The $ES_JAVA_OPTS matches `jvm_options` attribute under the `config` stanza:
 
-The environment variable that needs to be passed in.  `ES_HOME` will need to point as in the artifact stanza; which in this case inside the `local` directory.
-```hcl
-      env {
-        ES_CLUSTER_NAME = "docker-cluster"
-        ES_HOME = "local/elasticsearch-5.5.0"
-      }
-```
-
-
-The Java config options is in the jvm.options file ($ES_JAVA_OPTS):
 ```bash
-leow$ head -20 config/jvm.options 
+leow$ head -20 ./config/jvm.options 
 ## JVM configuration
 ...
 # Xms represents the initial size of total heap space
@@ -185,9 +158,6 @@ leow$ head -20 config/jvm.options
 -XX:+UseConcMarkSweepGC
 -XX:CMSInitiatingOccupancyFraction=75
 -XX:+UseCMSInitiatingOccupancyOnly
-
-## optimizations
-
 # pre-touch memory pages used by the JVM during initialization
 -XX:+AlwaysPreTouch
 ...
@@ -202,7 +172,6 @@ leow$ head -20 config/jvm.options
 -Dlog4j.skipJansi=true
 ...
 ## GC logging
-
 #-XX:+PrintGCDetails
 #-XX:+PrintGCTimeStamps
 #-XX:+PrintGCDateStamps
@@ -210,11 +179,11 @@ leow$ head -20 config/jvm.options
 ...
 ```
 
-will look like below:
+will look like below after ported:
 ```hcl
       config {
         class = "org.elasticsearch.bootstrap.Elasticsearch"
-        class_path = "local/elasticsearch-5.5.0/lib/*"
+        class_path = "local/elasticsearch-5.5.2/lib/*"
         jvm_options = [
           "-Des.path.home=${ES_HOME}",
           "-Xmx512m",
@@ -240,11 +209,55 @@ will look like below:
         ]
       }
 ```
-Template is like:
+
+The environment variable that needs to be passed in are done using the `env` stanza.  The $ES_HOME was used above to specify the `es.path.home` indicates where the binary downloaded under the `artifact` stanza artifact is unzipped to; which is inside the `local` directory.
+```hcl
+      env {
+        ES_HOME = "local/elasticsearch-5.5.2"
+      }
+```
+
+The $ES_CLASSPATH matches `class_path` attribute under the `config` stanza.  The `class` needed to run is `org.elasticsearch.bootstrap.Elasticsearch`.  Since this is a single ES node, count will be 1:
+```hcl
+job "search" {
+  datacenters = [
+    "dc1"
+  ]
+  type = "service"
+...  
+  group "simple" {
+    count = 1
+...
+    task "elasticsearch" {
+      driver = "java"
+...
+      config {
+        class = "org.elasticsearch.bootstrap.Elasticsearch"
+        class_path = "local/elasticsearch-5.5.2/lib/*"
+...
+```
+To specify the resources needed by each ES node, use the `resource` stanza.  The important section is the port mapping labels which maps to the ES port of 9200 and 9300; respectively `eshttp` and `estransport`.  This will be mapped as an environment variable `NOMAD_HOST_PORT_eshttp` and `NOMAD_HOST_PORT_estransport` inside the ES instance.
+
+```hcl
+      resources {
+        # 150 MHz; burstable
+        cpu = 150
+        # 2GB; twice memory alloc
+        disk = 2048
+        # 1024 MB
+        memory = 1024
+        network {
+          mbits = 100
+          port "eshttp" {}
+          port "estransport" {}
+        }
+      }
+```
+
+The last piece to port over is the `elasticsearch.yml` file.  This is implemented in Nomad via the consul-template integration using the `template` stanza.  The minimum template for a single node is very simple; specifying host IP address and ports; as per below:
 ```hcl
       template {
         data = <<EOH
-          cluster.name: {{ env "ES_CLUSTER_NAME" }}
           network.host: {{ env "attr.unique.network.ip-address" }}
           network.publish_host: {{ env "attr.unique.network.ip-address" }}
           http.port: {{ env "NOMAD_HOST_PORT_eshttp" }}
@@ -253,19 +266,22 @@ Template is like:
           # Below are tweaks which may only be suitable in dev environments
           cluster.routing.allocation.disk.threshold_enabled: false
       EOH
-        destination = "local/elasticsearch-5.5.0/config/elasticsearch.yml"
+        destination = "local/elasticsearch-5.5.2/config/elasticsearch.yml"
       }
 ```
-Nomad will extract the needed from the agent client; IP Address will be located 
 
-; which should be removed 
+Since the original `elasticsearch.yml` file is inside the config directory, thus the `destination` of the dynamically generated template must also be the config directory relative to the location defined in `es.path.home` under the `jvm_options` attribute of the `config` stanza.
+
+Nomad will extract the needed unique attributes at runtime from the Nomad agent client.  Example of these attributes are like IP Address.
+
+Any further configuration (like where data and logs is stored) can be added the the above sample template.
 
 #### Gotcha
 This is 
 
-If did not have the matching the -ms512 and -mx512 to match; you will get OOM error if the overall memory usage exceeds the limit in the `resources` stanza.  The rule of thumb, have memory allocated to be 2x the Heap size
+If the specified heap size for the ES workload is too low; you will get OOM error if the overall memory usage exceeds the limit in the `resources` stanza.  The rule of thumb is to have memory allocated to be 2x the Heap size.
 
-Where the full Single Node ElasticSearch Job Specificationn looks like below:
+The full Single Node ElasticSearch Job Specification is:
 
 ```
 <script src="https://gist.github.com/leowmjw/5ffd63b70fb56565f5269b398ac3cacf.js"></script>

@@ -276,16 +276,77 @@ Nomad will extract the needed unique attributes at runtime from the Nomad agent 
 
 Any further configuration (like where data and logs is stored) can be added the the above sample template.
 
-#### Gotcha
-This is 
-
-If the specified heap size for the ES workload is too low; you will get OOM error if the overall memory usage exceeds the limit in the `resources` stanza.  The rule of thumb is to have memory allocated to be 2x the Heap size.
-
 The full Single Node ElasticSearch Job Specification is:
 
 ```
 <script src="https://gist.github.com/leowmjw/5ffd63b70fb56565f5269b398ac3cacf.js"></script>
 ```
+
+#### Plan and Run Job for Single Node
+Now that the full Job Specification for a Single ES Node is done, it can be scheduled and deployed.
+
+- Plan:
+```bash
+leow$ ./bin/nomad plan nomad-samples/java/go-elasticsearch/elasticsearch.nomad 
++ Job: "search"
++ Task Group: "simple" (1 create)
+    + Task: "elasticsearch" (forces create)
+
+Scheduler dry-run:
+- All tasks successfully allocated.
+```
+
+- Run:
+```bash
+leow$ ./bin/nomad run nomad-samples/java/go-elasticsearch/elasticsearch.nomad 
+==> Monitoring evaluation "b8e814d9"
+    Evaluation triggered by job "search"
+    Evaluation within deployment: "2e8c1de6"
+    Allocation "63eb5336" created: node "307205b9", group "simple"
+    Evaluation status changed: "pending" -> "complete"
+==> Evaluation "b8e814d9" finished with status "complete"
+```
+Complete command that should be seen is:
+```bash
+leow$ java -Des.path.home=local/elasticsearch-5.5.2 -Xmx512m -Xms512m -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -server -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -Djdk.io.permissionsUseCanonicalPath=true -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Dlog4j.skipJansi=true -XX:+HeapDumpOnOutOfMemoryError -cp "local/elasticsearch-5.5.2/lib/*" org.elasticsearch.bootstrap.Elasticsearch
+```
+
+#### Verifying Single Node
+Nomad Allocation once correct will show green in both Consul and Nomad as per below:
+- Consul:
+![ES Service Health](./IMAGES/Consul-ES-Service-Health.png)
+- Nomad:
+![ES Deployment Rollout](./IMAGES/Nomad-ES-Deployment-Rollout.png)
+
+Issue the following curl call to confirm ES is working by checking the end-point and cluster health status:
+
+- ES Endpoint:
+```bash
+leow$ curl -L "http://127.0.0.1:22499"
+{
+  "name" : "HhucESm",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "nkPe_zVhSRuLgMHU9M3WUw",
+  "version" : {
+    "number" : "5.5.2",
+    "build_hash" : "b2f0c09",
+    "build_date" : "2017-08-14T12:33:14.154Z",
+    "build_snapshot" : false,
+    "lucene_version" : "6.6.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+```
+
+- Cluster Health:
+```bash
+leow$ curl -L "http://127.0.0.1:22499/_cluster/health"
+{"cluster_name":"elasticsearch","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+```
+
+#### Gotcha
+If the specified heap size for the ES workload is too low; you will get OOM error if the overall memory usage exceeds the limit in the `resources` stanza.  The rule of thumb is to have memory allocated to be 2x the Heap size.
+
 
 ### Cluster Node
 

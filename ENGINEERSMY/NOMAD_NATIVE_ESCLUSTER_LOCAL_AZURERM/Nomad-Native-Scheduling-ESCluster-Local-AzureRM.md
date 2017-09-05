@@ -278,9 +278,7 @@ Any further configuration (like where data and logs is stored) can be added the 
 
 The full Single Node ElasticSearch Job Specification is:
 
-```
 <script src="https://gist.github.com/leowmjw/5ffd63b70fb56565f5269b398ac3cacf.js"></script>
-```
 
 #### Plan and Run Job for Single Node
 Now that the full Job Specification for a Single ES Node is done, it can be scheduled and deployed.
@@ -373,6 +371,55 @@ The important part is the need the dynamic host ports to be filled in that is in
         port = "estransport"
       }
 ```
+
+#### Plan and Run Job for Multi-Node ES Cluster
+Now that the full Job Specification for a Multi-Node ES Cluster is done, it can be scheduled and deployed.
+
+- Plan:
+```bash
+leow$ ./bin/nomad plan nomad-samples/java/go-elasticsearch/cluster-elasticsearch.nomad 
++/- Job: "search"
++   Task Group: "complex" (3 create)
+    + Task: "elasticsearch" (forces create)
+
++/- Task Group: "simple" (1 create/destroy update)
+  +/- EphemeralDisk {
+    +/- Migrate: "true" => "false"
+    +/- SizeMB:  "5000" => "300"
+    +/- Sticky:  "true" => "false"
+      }
+  +/- Task: "elasticsearch" (forces create/destroy update)
+    +/- Env[ES_HOME]: "local/elasticsearch-5.5.2" => "/local/elasticsearch-5.5.2"
+...
+       + Envvars:      "false"
+        + LeftDelim:    "{{"
+        + Perms:        "0644"
+        + RightDelim:   "}}"
+          SourcePath:   ""
+        + Splay:        "5000000000"
+        + VaultGrace:   "300000000000"
+        }
+    -   Template {
+        - ChangeMode:   "restart"
+          ChangeSignal: ""
+        - DestPath:     "local/elasticsearch-5.5.2/config/elasticsearch.yml"
+Michaels-MacBook-Pro:tmp leow$ 
+```
+
+- Run:
+```bash
+leow$ ./bin/nomad run nomad-samples/java/go-elasticsearch/cluster-elasticsearch.nomad 
+==> Monitoring evaluation "806b59a3"
+    Evaluation triggered by job "search"
+    Allocation "1b071736" created: node "307205b9", group "simple"
+    Allocation "68953103" created: node "307205b9", group "complex"
+    Allocation "74b1365d" created: node "307205b9", group "complex"
+    Allocation "920f3a93" created: node "307205b9", group "complex"
+    Evaluation within deployment: "11bda5c7"
+    Evaluation status changed: "pending" -> "complete"
+==> Evaluation "806b59a3" finished with status "complete"
+```
+
 
 ### ESCluster UI Cerebro
 The deplioyment of cluster ElasticSearch can be viewed using the nicely done UI called erebro

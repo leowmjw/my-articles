@@ -366,7 +366,7 @@ There is a workaround above where if IPv6 localhost is detected for `.Address`, 
 
 Another important part is the need for the dynamic host ports to be filled in to the `discovery.zen.ping.unicast.hosts` section of the config.  This is done by iterating through the host inside the service named `escluster-transport` in the `service`.  No health check is specified so that it is registered immediately and visible to consul-template processing the above `template` stanza.
 
-```bash
+```hcl
       service {
         name = "escluster-transport"
         port = "estransport"
@@ -430,17 +430,15 @@ Nomad Allocation once correct (notice the previous Single Node ES is also runnin
 ![ES Cluster Deployment Rollout](./IMAGES/Nomad-ES-Cluster-Deployment-Rollout.png) 
 
 #### Gotcha
-For the `template` stanza, the `change_mode` attribute needs to be set to "noop", otherwise it means
+For the `template` stanza, the `change_mode` attribute needs to be set to "noop", otherwise it will happen that the ES nodes gets killed before it can get stabilized to form the complete cluster.
 
 ### What About Docker?
-It is not a mutually exclusive decision, the beauty of Nomad is that it can run different type of workloads together; which also includes Docker.  So, for example, we can run the ESCluster UI Cerebro as   
+It is not a mutually exclusive decision that running a native workload means Docker gets excluded.  On the contrary, the beauty of Nomad is that it can run different type of workloads together; choose the best for the job; whether it is `rkt`, `lxc`, `raw_exec`, `qemu`...  For example, in order to verify the multi-node ES Cluster has been deployed correctly, we can run the nice ElasticSearch UI, [Cerebro](https://github.com/lmenezes/cerebro) as a Docker workload instead of Java natively.    
 
 ### ESCluster UI Cerebro
-The deplioyment of cluster ElasticSearch can be viewed using the nicely done UI called erebro
+The deployment of Cerebro is as easy as adding a new group for "admin" tasks like "cerebro"; specifying the Docker image to be used and the needed port maps so that it can be accessed directly via its standard port of `9000`. 
 
-Showing the flexibility
-
-In fact,we can also run Hashi-UI as a docker job ..
+Do ensure enough resource is allocated to the Cerebro container, otherwise you might face the dreaded 137 Error, which usually means Out-of-Memory (OOM) action when running Java workloads.  In the example below; we ensure it is given 1GB; for production you'll want to tune the image's Dockerfile to be able to tune the needed memory.
 
 ```hcl
   group "admin" {
@@ -469,7 +467,7 @@ In fact,we can also run Hashi-UI as a docker job ..
 ...
     }
 ```
-The full Multi-Node ElasticSearch Job Specification is:
+The full complete Multi-Node ElasticSearch Job Specification is:
 
 <script src="https://gist.github.com/leowmjw/8174c224593d31cc06e90c4bc2e9977a.js"></script>
 

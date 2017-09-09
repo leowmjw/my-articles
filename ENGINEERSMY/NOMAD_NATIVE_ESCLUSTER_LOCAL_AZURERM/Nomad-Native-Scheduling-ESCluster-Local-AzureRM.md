@@ -346,14 +346,14 @@ leow$ curl -L "http://127.0.0.1:22499/_cluster/health"
 If the specified heap size for the ES workload is too low; you will get OOM error if the overall memory usage exceeds the limit in the `resources` stanza.  The rule of thumb is to have memory allocated to be 2x the Heap size.
 
 
-### Cluster Node
+### Multi-Node Cluster 
 
-The relevant portion of the ElasticSearch config is as per below.  There is a hack in there if IPv6 localhost is detected, the Address used should be localhost as there seems to be some problem with the local Consul run in dev mode .. :(
+The relevant portion of the ElasticSearch config is as per below. It indicates that there needs to have at least 2 master nodes out of 3 nodes to declare quorum of the cluster.  The node discovery mechanism is set to be the unicast zen with the existing master node types available.
 
 ```bash
 ...
           cluster.name: {{ env "ES_CLUSTER_NAME" }}
-          network.host: {{ env "attr.unique.network.ip-address" }}
+          network.host: [ "0.0.0.0" ]
           discovery.zen.minimum_master_nodes: 2
           # network.publish_host: {{ env "attr.unique.network.ip-address" }}
           {{ if service "escluster-transport"}}discovery.zen.ping.unicast.hosts:{{ range service "escluster-transport" }}
@@ -362,8 +362,9 @@ The relevant portion of the ElasticSearch config is as per below.  There is a ha
           transport.tcp.port: {{ env "NOMAD_HOST_PORT_estransport" }}
 ...
 ```
+There is a workaround above where if IPv6 localhost is detected for `.Address`, it should be rewritten to localhost as Consul in dev mode does not seem to like IPv6 bind address :(
 
-The important part is the need the dynamic host ports to be filled in that is indicated earlier under the service stanza pointing to the ES Transport port.
+Another important part is the need for the dynamic host ports to be filled in to the `discovery.zen.ping.unicast.hosts` section of the config.  This is done by iterating through the host inside the service named `escluster-transport` in the `service`.  No health check is specified so that it is registered immediately and visible to consul-template processing the above `template` stanza.
 
 ```bash
       service {
@@ -420,30 +421,69 @@ leow$ ./bin/nomad run nomad-samples/java/go-elasticsearch/cluster-elasticsearch.
 ==> Evaluation "806b59a3" finished with status "complete"
 ```
 
+#### Verifying Multi-Node ES Cluster
+Nomad Allocation once correct (notice the previous Single Node ES is also running simultaneously) will show green in both Consul and Nomad as per below:
+
+- Consul:
+![ES Cluster Service Health](./IMAGES/Consul-ES-Cluster-Service-Health.png) 
+- Nomad:
+![ES Cluster Deployment Rollout](./IMAGES/Nomad-ES-Cluster-Deployment-Rollout.png) 
+
+#### Gotcha
+For the `template` stanza, the `change_mode` attribute needs to be set to "noop", otherwise it means
+
+### What About Docker?
+It is not a mutually exclusive decision, the beauty of Nomad is that it can run different type of workloads together; which also includes Docker.  So, for example, we can run the ESCluster UI Cerebro as   
 
 ### ESCluster UI Cerebro
 The deplioyment of cluster ElasticSearch can be viewed using the nicely done UI called erebro
 
 Showing the flexibility
 
-### What About Docker?
-It is not a mutually exclusive decision, the beauty of Nomad is that it can run different type of workloads together; which also includes Docker.  So, for example, we can run the ESCluster UI Cerebro as   
-
 In fact,we can also run Hashi-UI as a docker job ..
 
-```bash
-nomad plan ./jobs/es-cerebro.nomad
+```hcl
+  group "admin" {
+    count = "1"
+...
+    task "cerebro" {
+      driver = "docker"
 
-nomad run ./jobs/es-cerebro.nomad
+      config {
+        image = "yannart/cerebro:latest"
+        port_map {
+          cerebro = "9000"
+        }
+      }
 
-nomad status
+      resources {   
+...
+        # 1024 MB
+        memory = 1024
+        network {
+          port "cerebro" {
+            static = "9000"
+          }
+        }
+      }
+...
+    }
 ```
+The full Multi-Node ElasticSearch Job Specification is:
+
+<script src="https://gist.github.com/leowmjw/8174c224593d31cc06e90c4bc2e9977a.js"></script>
 
 ### Output
-You can confirm the ES by doing the foloowing curl 
-This is how to index data ..
-Also, the output for 
+The Cerebro UI shows both the single node and multi-cluster ElasticSearch running simultaneously:
+
+- Single node ElasticSearch:
+![Cerebro Single Node](./IMAGES/Cerebro-Single-Node.png) 
+
+- Multi-node ElasticSearch Cluster:
+![Cerebro Multi Node](./IMAGES/Cerebro-Multi-Node.png) 
+
+Happy Searching!
 
 ### What Next?
 
-In the next article, we'll use the latest [Nomad Box](https://github.com/leowmjw/nomad-box) to deploy the setup into a full multi-machine Nomad Cluster; and explore more intricacies of the different ElasticSearch node types (master node, observer node, data nodes); and how it should be deployed with example Nomad Job Examples.
+In the next article, we'll use the latest [Nomad Box](https://github.com/leowmjw/nomad-box) to deploy this setup into a full multi-machine Nomad Cluster; and explore more intricacies of the different ElasticSearch node types (master node, observer node, data nodes); and how it should be deployed for High Availabilty and High Performance.
